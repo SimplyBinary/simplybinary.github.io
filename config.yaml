@@ -1,8 +1,0 @@
-contentdir: "content"
-layoutdir: "layouts"
-publishdir: "public"
-indexes:
-  category: "categories"
-baseurl: "http://simplybinary.github.io"
-title: "Simply Binary"
-canonifyurls: true
