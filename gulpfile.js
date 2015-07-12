@@ -7,6 +7,7 @@ var gulp = require('gulp')
 		autoprefixer = require('gulp-autoprefixer')
 		addsrc = require('gulp-add-src')
 		uglify = require('gulp-uglify')
+		uncss = require('gulp-uncss')
 
 gulp.task('watch', function() {
     gulp.watch('sass/**/*.scss', ['css']);
@@ -22,9 +23,9 @@ gulp.task('css', function() {
 		.pipe(autoprefixer('last 2 version'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
-		.pipe(minifyCSS())
-		.pipe(rename({ suffix: '.min'}))
 		.pipe(concat('styles.min.css'))
+		.pipe(uncss({html: ['public/**/*.html']}))
+		.pipe(minifyCSS())
 		.pipe(gulp.dest('static/css'))
 });
 
