@@ -1,13 +1,13 @@
 var gulp = require('gulp')
-		addsrc = require('gulp-add-src')
-		autoprefixer = require('gulp-autoprefixer')
-		concat = require('gulp-concat')
-		minifyCSS = require('gulp-minify-css')
-		rename = require('gulp-rename')
-		sass = require('gulp-sass')
-		scsslint = require('gulp-scss-lint')
-		uglify = require('gulp-uglify')
-		uncss = require('gulp-uncss')
+		, addsrc = require('gulp-add-src')
+		, autoprefixer = require('gulp-autoprefixer')
+		, concat = require('gulp-concat')
+		, minifyCSS = require('gulp-minify-css')
+		, rename = require('gulp-rename')
+		, sass = require('gulp-sass')
+		, scsslint = require('gulp-scss-lint')
+		, uglify = require('gulp-uglify')
+		, uncss = require('gulp-uncss')
 
 gulp.task('watch', function() {
     gulp.watch('sass/**/*.scss', ['css']);
