@@ -1,0 +1,14 @@
+// team-members.scss
+
+.title {
+  color: $cool-light-grey;
+  font-family: $font-family-base;
+  font-size: 22px;
+}
+
+.team-member {
+  box-shadow: 2px 2px 2px -1px $light-grey;
+  height: 83px;
+  width: 83px;
+}
+

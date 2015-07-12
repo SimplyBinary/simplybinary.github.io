@@ -1,3 +1,10 @@
-.button {
-  background-color: green;
-}
+// styles.scss
+// Entry point file for styles(.min).css
+
+@import 'variables';
+@import 'general';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'buttons';
+@import 'team-members';

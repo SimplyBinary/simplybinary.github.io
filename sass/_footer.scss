@@ -1,0 +1,31 @@
+// footer.scss
+
+.footer-title {
+  color: $steel;
+  font-family: $font-family-heading;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: $steel;
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 14px;
+
+  a {
+    color: $steel;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  .social a {
+    font-family: Mono Social Icons;
+    font-size: 30px;
+  }
+
+}

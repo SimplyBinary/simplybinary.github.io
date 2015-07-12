@@ -1,0 +1,76 @@
+// typography.scss
+
+h1 {
+  color: $font-color-base;
+  font-family: Oswald, Helvetica, sans-serif;
+  font-size: 70px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: $cool-dark-grey;
+  font-family: $font-family-base;
+  font-size: 36px;
+
+  &.tagline {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+h3 {
+  color: $cool-grey;
+  font-family: $font-family-alt;
+  font-size: 22px;
+}
+
+h4 {
+  color: $cool-light-grey;
+  font-family: $font-family-alt;
+  font-size: 18px;
+}
+
+h5 {
+  border-bottom: 3px solid $color-primary;
+  color: $grey;
+  font-family: $font-family-heading;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: $grey;
+  font-family: $font-family-heading;
+  font-size: 24px;
+}
+
+a {
+  color: $color-primary;
+  font-family: $font-family-heading;
+  font-size: 18px;
+}
+
+.011011 {
+	font-family: $font-family-heading;
+	font-size: 22px;
+	color: $white;
+	text-transform: uppercase;
+	background-color: $color-primary;
+
+	.number {
+		opacity: 0.6;
+	}
+}
+
+.date  {
+	font-family: $font-family-base;
+	font-size: 14px;
+	color: $cool-steel;
+}
+
+.services  {
+	font-family: Font Awesome;
+	font-size: 40px;
+	color: $font-color-base;
+}
+
