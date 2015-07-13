@@ -1,0 +1,3 @@
+<img src="{{ .Image | relURL }}" alt="{{ .Name }}" class="teamMember" />
+<h3>{{ .Name }} <span class="title">{{ .Position }}</span></h3>
+<p>{{ index . "Short Description" | markdownify }}</p>
