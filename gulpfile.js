@@ -5,7 +5,7 @@ var gulp = require('gulp')
 		, minifyCSS = require('gulp-minify-css')
 		, rename = require('gulp-rename')
 		, sass = require('gulp-sass')
-		, scsslint = require('gulp-scss-lint')
+		, scsslint = require('gulp-scsslint')
 		, uglify = require('gulp-uglify')
 		, uncss = require('gulp-uncss')
 
@@ -17,10 +17,12 @@ gulp.task('watch', function() {
 gulp.task('default', ['css', 'js']);
 
 gulp.task('css', function() {
-	return gulp.src('sass/styles.scss')
+
+	return gulp.src('sass/**/*.scss')
     .pipe(scsslint({'endless': true, 'config': 'sass/lint.yaml'}))
-		.pipe(sass({style: 'expanded'}))
+		.pipe(sass())
 		.pipe(autoprefixer('last 2 version'))
+		.pipe(addsrc.prepend('static/css/simplyBinary.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
 		.pipe(concat('styles.min.css'))

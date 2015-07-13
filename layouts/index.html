@@ -5,7 +5,8 @@
 		<title>{{ .Site.Title }}</title>
 		<link rel="canonical" href="{{ .Permalink }}">
 		<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-		<link href="{{ "css/styles.min.css" | relURL }}" rel="stylesheet" />
+		<link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 		<title>{{ .Site.Title }}</title>
 	</head>
 	<body>
@@ -86,5 +87,5 @@
 			</div>
 		</footer>
 	</body>
-	<script src="{{ "js/app.min.js" | relURL }}" type="text/javascript"></script>
+	<script src="{{ "js/app.min.js" | absURL }}" type="text/javascript"></script>
 </html>
