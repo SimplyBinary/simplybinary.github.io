@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Simply Binary</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>http://simplybinary.github.io/pages/</link>
     <description>Recent content in Pages on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Jul 2015 17:27:51 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://simplybinary.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>team</title>
-      <link>http://localhost:1313/pages/team/</link>
+      <link>http://simplybinary.github.io/pages/team/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:51 -0400</pubDate>
       
-      <guid>http://localhost:1313/pages/team/</guid>
+      <guid>http://simplybinary.github.io/pages/team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://localhost:1313/pages/blog/</link>
+      <link>http://simplybinary.github.io/pages/blog/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:48 -0400</pubDate>
       
-      <guid>http://localhost:1313/pages/blog/</guid>
+      <guid>http://simplybinary.github.io/pages/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>work</title>
-      <link>http://localhost:1313/pages/work/</link>
+      <link>http://simplybinary.github.io/pages/work/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:44 -0400</pubDate>
       
-      <guid>http://localhost:1313/pages/work/</guid>
+      <guid>http://simplybinary.github.io/pages/work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://simplybinary.github.io/about/</link>
       <pubDate>Mon, 13 Jul 2015 12:27:21 -0400</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://simplybinary.github.io/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-simply-binary:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Simply Binary&lt;/h1&gt;
