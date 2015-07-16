@@ -2,7 +2,27 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 indexes:
-  category: "categories"
+    category: "categories"
 baseurl: "http://simplybinary.github.io"
 title: "Simply Binary"
 canonifyurls: true
+metadataformat: "yaml"
+menu:
+  main:
+    - Name: "Home"
+      Weight: 1
+      Identifier: "home"
+      URL: "/"
+  social:
+    - Name: "Facebook"
+      Weight: 10
+      Identifier: "facebook"
+      URL: "/"
+    - Name: "Twitter"
+      Weight: 20
+      Identifier: "twitter"
+      URL: "/"
+    - Name: "RSS"
+      Weight: 30
+      Identifier: "rss"
+      URL: "/"

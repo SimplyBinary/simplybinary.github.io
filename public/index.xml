@@ -2,10 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simply Binary</title>
-    <link>http://simplybinary.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="http://simplybinary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2015 11:18:36 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CaptureLife</title>
+      <link>http://localhost:1313/work/CaptureLife/</link>
+      <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
+      
+      <guid>http://localhost:1313/work/CaptureLife/</guid>
+      <description>
+
+&lt;p&gt;Lorem markdownum matrem intellectam ictu retinet hospes, nunc reget Olenos,
+superesse. Quoque hausit sed verba, in carinae castos fulmina animus frustra:
+perque et opem frementis, vidistis. O ebore licet, et mihi herbis caecamque
+stridunt etiamnum. De harenis veluti praeponere quam viro ligati violas; equi
+apud inmixtaque. Novae faciat dixit adiuvet nectaris teneas Dignane, et utque
+Iuppiter.&lt;/p&gt;
+
+&lt;p&gt;Sollicita domum undas eque hunc plagis, nec nece ipse spolioque virgine novatrix
+parvo iugeribus Arachnes votum capillis. Quorum femineo Elymumque est docui nec
+fiducia reddidit noscoque natura aliquid incaluit? Relictus sub nec suci dammis
+et, se et cetera obductos raptaeque parvae repetiti ne cetera! Aeacon me, et
+potest suaque; gestu, nomenque et bis gener.&lt;/p&gt;
+
+&lt;h2 id=&#34;putares-fata:bac97b6d0dbee2adfd077a4e39cabe69&#34;&gt;Putares fata&lt;/h2&gt;
+
+&lt;p&gt;Dixi arcadiae qua dextram divis miscentur tempto columbam. Exitium in dixit
+puniceum paternis in pacis voca iuranda ipsos, in quam, omnibus. Potest iuvenem
+poeniceas quanto! Ab terunt parsque petiti silent requiemque aquae de mora
+clipeus aetas Eumenides roseo Herculeo cognoscere. Ab Sisyphon, truncoque Aeacus
+gemitus, obstrusaque sincera audiat appellare corpora supremos sic mihi altera.&lt;/p&gt;
+
+&lt;h2 id=&#34;pinxit-fidem-canos-nondum:bac97b6d0dbee2adfd077a4e39cabe69&#34;&gt;Pinxit fidem canos nondum&lt;/h2&gt;
+
+&lt;p&gt;Nam aquilonibus ferus fuit foedere oculis se parat, haec tanto, de iamdudum
+habeoque. Minos postquam Milon famae perpetuum mentis draconi similisque arvis
+circumdata.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Quasque verba! Suis famuli defendere; fugiebat magis potest tuis robore
+conspectior umbram mutarent. Factura revolvor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;nomina-nec-hos-vocisque-rugosis-si-reperta:bac97b6d0dbee2adfd077a4e39cabe69&#34;&gt;Nomina nec hos vocisque rugosis si reperta&lt;/h2&gt;
+
+&lt;p&gt;Et senectus mihi adgrediar e tamen sustinet! Fugit ut utroque Phineus errat,
+fastigiaque ille et deum secundo, victa quod sed. Lacerto oro cursu incerti
+lecto causa causam cultros me pacisci.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Thespiades Iovis pectus ense&lt;/li&gt;
+&lt;li&gt;Nobis rapax conplexae auxilium&lt;/li&gt;
+&lt;li&gt;Dixit claudit tenent collegit nisi pugnae longis&lt;/li&gt;
+&lt;li&gt;Vanum fontes precibus materno transierant fessa conlapsamque&lt;/li&gt;
+&lt;li&gt;Pactaeque fidequemunera florumque arbitrium plangens motisque tigno&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;quoque-que-milia:bac97b6d0dbee2adfd077a4e39cabe69&#34;&gt;Quoque que milia&lt;/h2&gt;
+
+&lt;p&gt;Non magna Othrys praeceps, Tritonida paulatim esse; quod per enim si aurum
+parantem voces. Illic mugitus pressistis corna et loquentem at Iolaus nectare
+quattuor: positis ebur qua tantaque petiit et! Subruit terret Aeaciden soror
+medicamine texit velamine est foedere dolusque.&lt;/p&gt;
+
+&lt;p&gt;Medio gestu colonos! Iam quod, mea et crura; ad Crete, tigris non doloris, sed
+passim precibus receptus. Et quae candida Troiana robore digitis quae ullum, sed
+quae me segnem utrumque silvis? Et nuda, in sit sed, est nunc Dulichium ignari
+celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>team</title>
+      <link>http://localhost:1313/pages/team/</link>
+      <pubDate>Mon, 13 Jul 2015 17:27:51 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>http://localhost:1313/pages/blog/</link>
+      <pubDate>Mon, 13 Jul 2015 17:27:48 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>http://localhost:1313/pages/work/</link>
+      <pubDate>Mon, 13 Jul 2015 17:27:44 -0400</pubDate>
+      
+      <guid>http://localhost:1313/pages/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 13 Jul 2015 12:27:21 -0400</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-simply-binary:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Simply Binary&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kona by Deltek</title>
+      <link>http://localhost:1313/work/Kona-by-Deltek/</link>
+      <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
+      
+      <guid>http://localhost:1313/work/Kona-by-Deltek/</guid>
+      <description>
+
+&lt;h1 id=&#34;et-absitque-capiti-operum-ostendens-dabat-ferasque:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Et absitque capiti operum ostendens dabat ferasque&lt;/h1&gt;
+
+&lt;h2 id=&#34;capiebant-una-gentis-cognoscere-perque:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Capiebant una gentis cognoscere perque&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum matrem intellectam ictu retinet hospes, nunc reget Olenos,
+superesse. Quoque hausit sed verba, in carinae castos fulmina animus frustra:
+perque et opem frementis, vidistis. O ebore licet, et mihi herbis caecamque
+stridunt etiamnum. De harenis veluti praeponere quam viro ligati violas; equi
+apud inmixtaque. Novae faciat dixit adiuvet nectaris teneas Dignane, et utque
+Iuppiter.&lt;/p&gt;
+
+&lt;p&gt;Sollicita domum undas eque hunc plagis, nec nece ipse spolioque virgine novatrix
+parvo iugeribus Arachnes votum capillis. Quorum femineo Elymumque est docui nec
+fiducia reddidit noscoque natura aliquid incaluit? Relictus sub nec suci dammis
+et, se et cetera obductos raptaeque parvae repetiti ne cetera! Aeacon me, et
+potest suaque; gestu, nomenque et bis gener.&lt;/p&gt;
+
+&lt;h2 id=&#34;putares-fata:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Putares fata&lt;/h2&gt;
+
+&lt;p&gt;Dixi arcadiae qua dextram divis miscentur tempto columbam. Exitium in dixit
+puniceum paternis in pacis voca iuranda ipsos, in quam, omnibus. Potest iuvenem
+poeniceas quanto! Ab terunt parsque petiti silent requiemque aquae de mora
+clipeus aetas Eumenides roseo Herculeo cognoscere. Ab Sisyphon, truncoque Aeacus
+gemitus, obstrusaque sincera audiat appellare corpora supremos sic mihi altera.&lt;/p&gt;
+
+&lt;h2 id=&#34;pinxit-fidem-canos-nondum:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Pinxit fidem canos nondum&lt;/h2&gt;
+
+&lt;p&gt;Nam aquilonibus ferus fuit foedere oculis se parat, haec tanto, de iamdudum
+habeoque. Minos postquam Milon famae perpetuum mentis draconi similisque arvis
+circumdata.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Quasque verba! Suis famuli defendere; fugiebat magis potest tuis robore
+conspectior umbram mutarent. Factura revolvor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;nomina-nec-hos-vocisque-rugosis-si-reperta:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Nomina nec hos vocisque rugosis si reperta&lt;/h2&gt;
+
+&lt;p&gt;Et senectus mihi adgrediar e tamen sustinet! Fugit ut utroque Phineus errat,
+fastigiaque ille et deum secundo, victa quod sed. Lacerto oro cursu incerti
+lecto causa causam cultros me pacisci.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Thespiades Iovis pectus ense&lt;/li&gt;
+&lt;li&gt;Nobis rapax conplexae auxilium&lt;/li&gt;
+&lt;li&gt;Dixit claudit tenent collegit nisi pugnae longis&lt;/li&gt;
+&lt;li&gt;Vanum fontes precibus materno transierant fessa conlapsamque&lt;/li&gt;
+&lt;li&gt;Pactaeque fidequemunera florumque arbitrium plangens motisque tigno&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;quoque-que-milia:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Quoque que milia&lt;/h2&gt;
+
+&lt;p&gt;Non magna Othrys praeceps, Tritonida paulatim esse; quod per enim si aurum
+parantem voces. Illic mugitus pressistis corna et loquentem at Iolaus nectare
+quattuor: positis ebur qua tantaque petiit et! Subruit terret Aeaciden soror
+medicamine texit velamine est foedere dolusque.&lt;/p&gt;
+
+&lt;p&gt;Medio gestu colonos! Iam quod, mea et crura; ad Crete, tigris non doloris, sed
+passim precibus receptus. Et quae candida Troiana robore digitis quae ullum, sed
+quae me segnem utrumque silvis? Et nuda, in sit sed, est nunc Dulichium ignari
+celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Barbri Law Preview</title>
+      <link>http://localhost:1313/work/Barbri-Law-Preview/</link>
+      <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
+      
+      <guid>http://localhost:1313/work/Barbri-Law-Preview/</guid>
+      <description>
+
+&lt;h1 id=&#34;et-absitque-capiti-operum-ostendens-dabat-ferasque:b4febd054986561ceb6cc838538b28bf&#34;&gt;Et absitque capiti operum ostendens dabat ferasque&lt;/h1&gt;
+
+&lt;h2 id=&#34;capiebant-una-gentis-cognoscere-perque:b4febd054986561ceb6cc838538b28bf&#34;&gt;Capiebant una gentis cognoscere perque&lt;/h2&gt;
+
+&lt;p&gt;Lorem markdownum matrem intellectam ictu retinet hospes, nunc reget Olenos,
+superesse. Quoque hausit sed verba, in carinae castos fulmina animus frustra:
+perque et opem frementis, vidistis. O ebore licet, et mihi herbis caecamque
+stridunt etiamnum. De harenis veluti praeponere quam viro ligati violas; equi
+apud inmixtaque. Novae faciat dixit adiuvet nectaris teneas Dignane, et utque
+Iuppiter.&lt;/p&gt;
+
+&lt;p&gt;Sollicita domum undas eque hunc plagis, nec nece ipse spolioque virgine novatrix
+parvo iugeribus Arachnes votum capillis. Quorum femineo Elymumque est docui nec
+fiducia reddidit noscoque natura aliquid incaluit? Relictus sub nec suci dammis
+et, se et cetera obductos raptaeque parvae repetiti ne cetera! Aeacon me, et
+potest suaque; gestu, nomenque et bis gener.&lt;/p&gt;
+
+&lt;h2 id=&#34;putares-fata:b4febd054986561ceb6cc838538b28bf&#34;&gt;Putares fata&lt;/h2&gt;
+
+&lt;p&gt;Dixi arcadiae qua dextram divis miscentur tempto columbam. Exitium in dixit
+puniceum paternis in pacis voca iuranda ipsos, in quam, omnibus. Potest iuvenem
+poeniceas quanto! Ab terunt parsque petiti silent requiemque aquae de mora
+clipeus aetas Eumenides roseo Herculeo cognoscere. Ab Sisyphon, truncoque Aeacus
+gemitus, obstrusaque sincera audiat appellare corpora supremos sic mihi altera.&lt;/p&gt;
+
+&lt;h2 id=&#34;pinxit-fidem-canos-nondum:b4febd054986561ceb6cc838538b28bf&#34;&gt;Pinxit fidem canos nondum&lt;/h2&gt;
+
+&lt;p&gt;Nam aquilonibus ferus fuit foedere oculis se parat, haec tanto, de iamdudum
+habeoque. Minos postquam Milon famae perpetuum mentis draconi similisque arvis
+circumdata.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Quasque verba! Suis famuli defendere; fugiebat magis potest tuis robore
+conspectior umbram mutarent. Factura revolvor.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;nomina-nec-hos-vocisque-rugosis-si-reperta:b4febd054986561ceb6cc838538b28bf&#34;&gt;Nomina nec hos vocisque rugosis si reperta&lt;/h2&gt;
+
+&lt;p&gt;Et senectus mihi adgrediar e tamen sustinet! Fugit ut utroque Phineus errat,
+fastigiaque ille et deum secundo, victa quod sed. Lacerto oro cursu incerti
+lecto causa causam cultros me pacisci.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Thespiades Iovis pectus ense&lt;/li&gt;
+&lt;li&gt;Nobis rapax conplexae auxilium&lt;/li&gt;
+&lt;li&gt;Dixit claudit tenent collegit nisi pugnae longis&lt;/li&gt;
+&lt;li&gt;Vanum fontes precibus materno transierant fessa conlapsamque&lt;/li&gt;
+&lt;li&gt;Pactaeque fidequemunera florumque arbitrium plangens motisque tigno&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;quoque-que-milia:b4febd054986561ceb6cc838538b28bf&#34;&gt;Quoque que milia&lt;/h2&gt;
+
+&lt;p&gt;Non magna Othrys praeceps, Tritonida paulatim esse; quod per enim si aurum
+parantem voces. Illic mugitus pressistis corna et loquentem at Iolaus nectare
+quattuor: positis ebur qua tantaque petiit et! Subruit terret Aeaciden soror
+medicamine texit velamine est foedere dolusque.&lt;/p&gt;
+
+&lt;p&gt;Medio gestu colonos! Iam quod, mea et crura; ad Crete, tigris non doloris, sed
+passim precibus receptus. Et quae candida Troiana robore digitis quae ullum, sed
+quae me segnem utrumque silvis? Et nuda, in sit sed, est nunc Dulichium ignari
+celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

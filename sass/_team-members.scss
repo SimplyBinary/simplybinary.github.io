@@ -1,14 +1,31 @@
 // team-members.scss
 
 .title {
-  color: $cool-light-grey;
   font-family: $font-family-base;
   font-size: 22px;
+  font-weight: $font-weight-light;
+  padding-left: 8px;
 }
 
 .team-member {
   box-shadow: 2px 2px 2px -1px $light-grey;
-  height: 83px;
-  width: 83px;
+  width: 100%;
 }
 
+.meet-the-team {
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    font-family: $font-family-base;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+}
