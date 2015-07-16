@@ -1,0 +1,11 @@
+// recent-work.scss
+
+.recent-work {
+  .row {
+    +hr {
+      border-style: dashed;
+      border-color: $light-grey;
+      margin: 40px 0;
+    }
+  }
+}

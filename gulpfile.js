@@ -10,23 +10,27 @@ var gulp = require('gulp')
 		, uncss = require('gulp-uncss')
 
 gulp.task('watch', function() {
-    gulp.watch('sass/**/*.scss', ['css']);
+    gulp.watch(['sass/**/*.scss', 'public/**/*.html'], ['css']);
     gulp.watch('js/**/*.js', ['js']);
 });
 
 gulp.task('default', ['css', 'js']);
 
 gulp.task('css', function() {
-
 	return gulp.src('sass/**/*.scss')
-    .pipe(scsslint({'endless': true, 'config': 'sass/lint.yaml'}))
+    .pipe(scsslint('sass/lint.yaml'))
+		.pipe(scsslint.reporter()
+		.on('error', function(error) {
+			this.emit('end');
+		}))
 		.pipe(sass())
 		.pipe(autoprefixer('last 2 version'))
 		.pipe(addsrc.prepend('static/css/simplyBinary.css'))
+		.pipe(addsrc.prepend('bower_components/font-awesome/css/font-awesome.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
 		.pipe(concat('styles.min.css'))
-		.pipe(uncss({html: ['public/**/*.html']}))
+		.pipe(uncss({html: ['public/**/*.html'], ignore: ['/hover/', '/focus/', '/active/', '/visited/', '/not/']}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('static/css'))
 });

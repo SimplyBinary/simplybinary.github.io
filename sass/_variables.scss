@@ -3,8 +3,8 @@
 $color-primary: #71bc5f;
 $white: #fff;
 $smoke: #f3f3f3;
-$cool-light-grey: #a7abb0;
 $light-grey: #ccc;
+$cool-light-grey: #a7abb0;
 $cool-steel: #9ca4af;
 $steel: #999;
 $cool-grey: #7c8086;
@@ -12,8 +12,15 @@ $grey: #555;
 $cool-dark-grey: #495054;
 $dark-grey: #373737;
 
-$font-family-base: 'Lato Light', Helvetica, sans-serif;
-$font-family-heading: 'Lato Bold', Helvetica, sans-serif;
-$font-family-alt: Lato, Helvetica, sans-serif;
+$font-family-base: Lato, Helvetica, sans-serif;
+$font-family-heading: $font-family-base;
+$font-family-alt: $font-family-base;
 $font-size-base: 18px;
-$font-color-base: $dark-grey;
+$font-color-base: $cool-dark-grey;
+$font-weight-normal: 400;
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
+$top-nav-height: 114px;
+
+$footer-background-color: #343434;

@@ -1,3 +1,9 @@
-<img src="{{ .Image | relURL }}" alt="{{ .Name }}" class="teamMember" />
-<h3>{{ .Name }} <span class="title">{{ .Position }}</span></h3>
-<p>{{ index . "Short Description" | markdownify }}</p>
+<div class="row">
+	<div class="small-centered small-6 medium-2 medium-uncentered columns">
+		<img src="{{ .Image | relURL }}" alt="{{ .Name }}" class="team-member" />
+	</div>
+	<div class="small-12 medium-10 columns">
+		<h3>{{ .Name }} <span class="title">{{ .Position }}</span></h3>
+		<p>{{ index . "Short Description" | markdownify }}</p>
+	</div>
+</div>

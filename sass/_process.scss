@@ -1,0 +1,21 @@
+.process-step {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.process-step-text {
+  background-color: $color-primary;
+  color: $white;
+  font-size: 22px;
+  font-weight: $font-weight-normal;
+  padding: 0 20px 0 10px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 75%;
+
+}
+
+.process-step-number {
+  font-weight: $font-weight-bold;
+  opacity: .6;
+}

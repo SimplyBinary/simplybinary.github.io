@@ -4,10 +4,34 @@ body {
   color: $font-color-base;
   font-family: $font-family-base;
   font-size: $font-size-base;
+  font-weight: $font-weight-light;
 }
 
-.divide  {
-	background-color: $smoke;
-	margin: 40px;
+.row {
+  max-width: 1150px;
 }
 
+.divide {
+  background-color: $smoke;
+  margin: 40px;
+}
+
+.hero {
+  background-color: lighten($color-primary, 35%);
+  background-image: url('../img/main.jpg');
+  background-size: cover;
+  padding: 150px 0;
+  text-transform: uppercase;
+
+  .row {
+    max-width: 97%;
+  }
+}
+
+.section {
+  padding: 40px 0;
+
+  &:nth-child(odd) {
+    background-color: $smoke;
+  }
+}

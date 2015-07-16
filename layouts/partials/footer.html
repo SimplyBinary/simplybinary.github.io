@@ -1,0 +1,42 @@
+<footer class="footer">
+	<div  class="row">
+		<div class="large-12 columns">
+			<div class="row">
+				<div class="medium-6 columns">
+					<h4 class="footer-title">Our Philosophy</h4>
+				</div>
+				<div class="medium-3 columns">
+					<h4 class="footer-title">Links</h4>
+					<ul class="">
+					{{ $currentNode := . }}
+					{{ range .Site.Menus.main }}
+						<li>
+							<a {{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}} href="{{.URL}}">
+								{{ .Pre }}
+								{{ .Name }}
+							</a>
+						</li>
+					{{end}}
+					</ul>
+				</div>
+				<div class="medium-3 columns">
+					<h4 class="footer-title">Connect</h4>
+					<ul class="inline-list right">
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+						<li><a href="#">Link 4</a></li>
+						<li><a href="#">Link 5</a></li>
+						<li><a href="#">Link 6</a></li>
+						<li><a href="#">Link 7</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="medium-12 columns text-center">
+					<p class="copyright">{{ partial "copyright.html" . }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

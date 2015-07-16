@@ -3,74 +3,83 @@
 h1 {
   color: $font-color-base;
   font-family: Oswald, Helvetica, sans-serif;
-  font-size: 70px;
-  letter-spacing: 1px;
+  font-size: 72px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
 
 h2 {
   color: $cool-dark-grey;
   font-family: $font-family-base;
-  font-size: 36px;
+  font-weight: $font-weight-light;
 
   &.tagline {
-    letter-spacing: 2px;
+    letter-spacing: 8px;
     text-transform: uppercase;
+  }
+
+  >a {
+    margin-bottom: 0;
   }
 }
 
 h3 {
   color: $cool-grey;
   font-family: $font-family-alt;
-  font-size: 22px;
 }
 
 h4 {
   color: $cool-light-grey;
   font-family: $font-family-alt;
-  font-size: 18px;
 }
 
 h5 {
   border-bottom: 3px solid $color-primary;
   color: $grey;
+  display: inline-block;
   font-family: $font-family-heading;
-  font-size: 18px;
+  font-weight: $font-weight-bold;
+  padding-bottom: 10px;
   text-transform: uppercase;
+
+  +hr {
+    border-top: 1px solid $light-grey;
+    margin: -10px 0 40px;
+  }
+
 }
 
 h6 {
   color: $grey;
   font-family: $font-family-heading;
   font-size: 24px;
+  font-weight: $font-weight-bold;
+}
+
+.date {
+  color: $cool-steel;
+  font-family: $font-family-base;
+  font-size: 14px;
+  line-height: 31px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 a {
   color: $color-primary;
   font-family: $font-family-heading;
-  font-size: 18px;
+  font-weight: $font-weight-bold;
 }
 
-.011011 {
-	font-family: $font-family-heading;
-	font-size: 22px;
-	color: $white;
-	text-transform: uppercase;
-	background-color: $color-primary;
-
-	.number {
-		opacity: 0.6;
-	}
+.fa-ul {
+  margin-left: 60px;
 }
 
-.date  {
-	font-family: $font-family-base;
-	font-size: 14px;
-	color: $cool-steel;
+.fa-li {
+  font-size: 40px;
+  left: -1.75em;
+  width: 1.75em;
 }
-
-.services  {
-	font-family: Font Awesome;
-	font-size: 40px;
-	color: $font-color-base;
-}
-

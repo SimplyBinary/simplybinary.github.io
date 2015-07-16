@@ -1,0 +1,26 @@
+<nav class="top-bar header" data-topbar role="navigation">
+	<div class="row">
+		<div class="medium-11 medium-centered columns">
+			<ul class="title-area">
+				<li>
+					<a href="/">
+						<img src="{{ "img/logo.png" | absURL }}" class="top-bar-logo" />
+					</a>
+				</li>
+			</ul>
+			<section class="top-bar-section">
+				<ul class="right">
+				{{ $currentNode := . }}
+				{{ range .Site.Menus.main }}
+					<li>
+						<a {{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}} href="{{.URL}}">
+							{{ .Pre }}
+							{{ .Name }}
+						</a>
+					</li>
+				{{end}}
+				</ul>
+			</section>
+		</div>
+	</div>
+</nav>
