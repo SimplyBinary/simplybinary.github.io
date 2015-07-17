@@ -2,6 +2,7 @@
 date: 2014-01-14T11:22:52-04:00
 draft: false
 title: Barbri Law Preview
+image: /img/barbri.png
 ---
 
 # Et absitque capiti operum ostendens dabat ferasque

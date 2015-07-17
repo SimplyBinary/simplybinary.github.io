@@ -2,6 +2,7 @@
 date: 2014-05-14T11:21:41-04:00
 draft: false
 title: Kona by Deltek
+image: /img/kona.png
 ---
 
 # Et absitque capiti operum ostendens dabat ferasque
