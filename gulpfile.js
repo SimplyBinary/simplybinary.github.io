@@ -25,7 +25,6 @@ gulp.task('css', function() {
 		}))
 		.pipe(sass())
 		.pipe(autoprefixer('last 2 version'))
-		.pipe(addsrc.prepend('static/css/simplyBinary.css'))
 		.pipe(addsrc.prepend('bower_components/font-awesome/css/font-awesome.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
