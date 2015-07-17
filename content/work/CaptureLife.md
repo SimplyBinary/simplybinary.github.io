@@ -2,7 +2,6 @@
 date: 2015-07-14T11:18:36-04:00
 draft: false
 title: CaptureLife
-image: /img/caputurelife.jpg
 ---
 
 Lorem markdownum matrem intellectam ictu retinet hospes, nunc reget Olenos,

@@ -29,18 +29,20 @@ gulp.task('css', function() {
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
 		.pipe(concat('styles.min.css'))
-		.pipe(uncss({html: ['public/**/*.html'], ignore: ['/hover/', '/focus/', '/active/', '/visited/', '/not/']}))
+		.pipe(uncss({html: ['public/**/*.html'], ignore: [/hover/, /focus/, /active/, /visited/, /not/, /condensed/]}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('static/css'))
 });
 
 gulp.task('js', function() {
-	return gulp.src('js/**.*.js')
+	return gulp.src('js/**/*.js')
+		.pipe(addsrc.prepend('bower_components/jquery-scrollspy-thesmart/scrollspy.js'))
+		.pipe(addsrc.prepend('bower_components/foundation/js/foundation/foundation.topbar.js'))
+		.pipe(addsrc.prepend('bower_components/foundation/js/foundation.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-cookie/jquery.cookie.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-placeholder/jquery.placeholder.js'))
 		.pipe(addsrc.prepend('bower_components/jquery/dist/jquery.js'))
-		.pipe(uglify())
-		.pipe(rename({ suffix: '.min'}))
 		.pipe(concat('app.min.js'))
+		//.pipe(uglify())
 		.pipe(gulp.dest('static/js'))
 });

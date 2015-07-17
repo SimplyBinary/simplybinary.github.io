@@ -12,7 +12,23 @@ menu:
     - Name: "Home"
       Weight: 1
       Identifier: "home"
-      URL: "/"
+      URL: "#home"
+    - Name: "Process"
+      Weight: 2
+      Identifier: "process"
+      URL: "#process"
+    - Name: "Services"
+      Weight: 3
+      Identifier: "services"
+      URL: "#services"
+    - Name: "Work"
+      Weight: 4
+      Identifier: "work"
+      URL: "#work"
+    - Name: "Team"
+      Weight: 5
+      Identifier: "team"
+      URL: "#team"
   social:
     - Name: "Facebook"
       Weight: 10

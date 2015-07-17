@@ -1,9 +1,29 @@
 // header.scss
 
-.header {
+.top-bar {
   background-color: $dark-grey;
   height: $top-nav-height;
+  position: fixed;
+  top: 0;
+  transition: $top-nav-transition;
   width: 100%;
+  z-index: 100;
+
+  &.condensed {
+    height: $top-nav-height-condensed;
+
+    a:not(.button) {
+      height: $top-nav-height-condensed;
+      line-height: $top-nav-height-condensed;
+      transition: $top-nav-transition;
+    }
+
+    .title-area {
+      > li {
+        margin: 3px 0;
+      }
+    }
+  }
 
   .social {
     color: $white;
@@ -13,8 +33,8 @@
 }
 
 .top-nav {
+  left: 0;
   transition: none 0 0;
-  left: 0 !important;
 
   ul {
     li {
@@ -28,7 +48,7 @@
 
     a:not(.button) {
       background-color: transparent;
-      border-bottom: 0px solid $color-primary;
+      border-bottom: 0 solid $color-primary;
       color: $white;
       display: inline-block;
       font-family: $font-family-base;
@@ -53,6 +73,7 @@
 .title-area {
   > li {
     margin: 36px 0;
+    transition: $top-nav-transition;
   }
 }
 

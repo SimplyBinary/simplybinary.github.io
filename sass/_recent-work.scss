@@ -3,8 +3,8 @@
 .recent-work {
   .row {
     +hr {
-      border-style: dashed;
       border-color: $light-grey;
+      border-style: dashed;
       margin: 40px 0;
     }
   }
