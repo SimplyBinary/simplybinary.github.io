@@ -5,8 +5,9 @@
   height: $top-nav-height;
   position: fixed;
   top: 0;
-  transition: $top-nav-transition;
+  transition: height $top-nav-transition-speed;
   width: 100%;
+  will-change: height;
   z-index: 100;
 
   &.condensed {
@@ -15,13 +16,16 @@
     a:not(.button) {
       height: $top-nav-height-condensed;
       line-height: $top-nav-height-condensed;
-      transition: $top-nav-transition;
     }
 
     .title-area {
       > li {
-        margin: 3px 0;
+        margin: 10px 0;
       }
+    }
+
+    .top-bar-logo {
+      height: 30px;
     }
   }
 
@@ -57,7 +61,8 @@
       line-height: $top-nav-height;
       padding: 0;
       text-transform: uppercase;
-      transition: all 200ms ease-in-out;
+      transition: height $top-nav-transition-speed, line-height $top-nav-transition-speed;
+      will-change: line-height, height;
 
       &.active,
       &:active,
@@ -73,10 +78,13 @@
 .title-area {
   > li {
     margin: 36px 0;
-    transition: $top-nav-transition;
+    transition: margin $top-nav-transition-speed;
+    will-change: margin;
   }
 }
 
 .top-bar-logo {
   height: 42px;
+  transition: height $top-nav-transition-speed;
+  will-change: height;
 }

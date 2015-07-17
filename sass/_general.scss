@@ -6,7 +6,8 @@ body {
   font-size: $font-size-base;
   font-weight: $font-weight-light;
   padding-top: $top-nav-height;
-  transition: $top-nav-transition;
+  transition: padding-top $top-nav-transition-speed;
+  will-change: padding-top;
 
   &.condensed-top-bar {
     padding-top: $top-nav-height-condensed;
