@@ -43,6 +43,6 @@ gulp.task('js', function() {
 		.pipe(addsrc.prepend('bower_components/jquery-placeholder/jquery.placeholder.js'))
 		.pipe(addsrc.prepend('bower_components/jquery/dist/jquery.js'))
 		.pipe(concat('app.min.js'))
-		//.pipe(uglify())
+		.pipe(uglify())
 		.pipe(gulp.dest('static/js'))
 });
