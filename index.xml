@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simply Binary</title>
-    <link>http://simplybinary.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 14 Jul 2015 11:18:36 -0400</lastBuildDate>
-    <atom:link href="http://simplybinary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CaptureLife</title>
-      <link>http://simplybinary.github.io/work/CaptureLife/</link>
+      <link>http://localhost:1313/work/CaptureLife/</link>
       <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/CaptureLife/</guid>
+      <guid>http://localhost:1313/work/CaptureLife/</guid>
       <description>
 
 &lt;p&gt;Lorem markdownum matrem intellectam ictu retinet hospes, nunc reget Olenos,
@@ -78,37 +78,37 @@ celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
     
     <item>
       <title>team</title>
-      <link>http://simplybinary.github.io/pages/team/</link>
+      <link>http://localhost:1313/pages/team/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:51 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/pages/team/</guid>
+      <guid>http://localhost:1313/pages/team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>http://simplybinary.github.io/pages/blog/</link>
+      <link>http://localhost:1313/pages/blog/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:48 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/pages/blog/</guid>
+      <guid>http://localhost:1313/pages/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>work</title>
-      <link>http://simplybinary.github.io/pages/work/</link>
+      <link>http://localhost:1313/pages/work/</link>
       <pubDate>Mon, 13 Jul 2015 17:27:44 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/pages/work/</guid>
+      <guid>http://localhost:1313/pages/work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://simplybinary.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 13 Jul 2015 12:27:21 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>
 
 &lt;h1 id=&#34;about-simply-binary:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Simply Binary&lt;/h1&gt;
@@ -117,10 +117,10 @@ celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
     
     <item>
       <title>Kona by Deltek</title>
-      <link>http://simplybinary.github.io/work/Kona-by-Deltek/</link>
+      <link>http://localhost:1313/work/Kona-by-Deltek/</link>
       <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/Kona-by-Deltek/</guid>
+      <guid>http://localhost:1313/work/Kona-by-Deltek/</guid>
       <description>
 
 &lt;h1 id=&#34;et-absitque-capiti-operum-ostendens-dabat-ferasque:6d8913ea67edf44e5a742e9bf1dcf61b&#34;&gt;Et absitque capiti operum ostendens dabat ferasque&lt;/h1&gt;
@@ -189,10 +189,10 @@ celerique mortalia summo, permanet pollens ignescere licet.&lt;/p&gt;
     
     <item>
       <title>Barbri Law Preview</title>
-      <link>http://simplybinary.github.io/work/Barbri-Law-Preview/</link>
+      <link>http://localhost:1313/work/Barbri-Law-Preview/</link>
       <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/Barbri-Law-Preview/</guid>
+      <guid>http://localhost:1313/work/Barbri-Law-Preview/</guid>
       <description>
 
 &lt;h1 id=&#34;et-absitque-capiti-operum-ostendens-dabat-ferasque:b4febd054986561ceb6cc838538b28bf&#34;&gt;Et absitque capiti operum ostendens dabat ferasque&lt;/h1&gt;
