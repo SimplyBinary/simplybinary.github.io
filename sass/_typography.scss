@@ -3,15 +3,18 @@
 h1 {
   color: $font-color-base;
   font-family: Oswald, Helvetica, sans-serif;
-  font-size: 72px;
+  font-size: 34px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  transition: all 1s;
 }
 
 h2 {
   color: $cool-dark-grey;
   font-family: $font-family-base;
+  font-size: 22px;
   font-weight: $font-weight-light;
+  transition: all 1s;
 
   &.tagline {
     letter-spacing: 8px;
@@ -83,3 +86,26 @@ a {
   left: -1.75em;
   width: 1.75em;
 }
+
+@media #{$medium-up} {
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+}
+
+@media #{$large-up} {
+
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+}
+

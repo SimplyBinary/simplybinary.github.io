@@ -1,8 +1,6 @@
 // team-members.scss
 
 .title {
-  font-family: $font-family-base;
-  font-size: 22px;
   font-weight: $font-weight-light;
   padding-left: 8px;
 }
@@ -22,6 +20,7 @@
   }
 
   p {
+    color: $cool-steel;
     font-family: $font-family-base;
   }
 
