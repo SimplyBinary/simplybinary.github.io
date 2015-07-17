@@ -29,6 +29,10 @@ menu:
       Weight: 5
       Identifier: "team"
       URL: "#team"
+    - Name: "Blog"
+      Weight: 6
+      Identifier: "blog"
+      URL: "http://blog.simplybinary.com"
   social:
     - Name: "Facebook"
       Weight: 10
