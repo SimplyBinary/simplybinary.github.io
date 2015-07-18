@@ -1,12 +1,12 @@
-contentdir: "content"
+ontentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseurl: "http://simplybinary.github.io"
+baseURL: "http://simplybinary.github.io"
 title: "Simply Binary"
-canonifyurls: true
-metadataformat: "yaml"
+canonifyURLs: true
+metaDataFormat:: "yaml"
 menu:
   main:
     - Name: "Home"
@@ -46,3 +46,5 @@ menu:
       Weight: 30
       Identifier: "rss"
       URL: "/"
+params:
+  BlogURL: "http://blog.simplybinary.com"
