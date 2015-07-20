@@ -1,33 +1,15 @@
 // header.scss
+$scale: $top-nav-height-condensed/$top-nav-height;
 
 .top-bar {
   background-color: $dark-grey;
   height: $top-nav-height;
+  left: 0;
   position: fixed;
   top: 0;
-  transition: height $top-nav-transition-speed;
+  transform-origin: top;
   width: 100%;
-  will-change: height;
   z-index: 100;
-
-  &.condensed {
-    height: $top-nav-height-condensed;
-
-    a:not(.button) {
-      height: $top-nav-height-condensed;
-      line-height: $top-nav-height-condensed;
-    }
-
-    .title-area {
-      > li {
-        margin: 10px 0;
-      }
-    }
-
-    .top-bar-logo {
-      height: 30px;
-    }
-  }
 
   .social {
     color: $white;
@@ -57,12 +39,11 @@
       display: inline-block;
       font-family: $font-family-base;
       font-size: 16px;
-      height: $top-nav-height;
-      line-height: $top-nav-height;
+      height: $top-nav-height-condensed;
+      line-height: $top-nav-height-condensed;
       padding: 0;
       text-transform: uppercase;
-      transition: height $top-nav-transition-speed, line-height $top-nav-transition-speed, border 200ms, color 200ms;
-      will-change: line-height, height, border, color;
+      transform-origin: center top;
 
       &.active,
       &:active,
@@ -76,15 +57,32 @@
 }
 
 .title-area {
+  height: 100%;
+  transform-origin: left top;
+
   > li {
-    margin: 36px 0;
-    transition: margin $top-nav-transition-speed;
-    will-change: margin;
+    height: 100%;
+    padding: 36px 0;
   }
 }
 
 .top-bar-logo {
   height: 42px;
-  transition: height $top-nav-transition-speed;
-  will-change: height;
+}
+
+@media #{$medium-up} {
+  .top-nav {
+    ul {
+      li {
+        &:not(.has-form) {
+          margin: 0 27px;
+        }
+      }
+
+      a:not(.button) {
+        height: $top-nav-height;
+        line-height: $top-nav-height;
+      }
+    }
+  }
 }
