@@ -9,40 +9,47 @@ $('.section').on('scrollSpy:enter', function() {
 $('.section').scrollSpy();
 
 $(window).scroll(function() {
+	var currentPosition = $(document).scrollTop();
 	var startHeight = 114;
 	var endHeight = 50;
 	var travel = startHeight - endHeight;
-	var scale = 1 - $(document).scrollTop()/startHeight;
-	var endScale = 1 - endHeight/startHeight;
+	var scale = 1 - (currentPosition/startHeight);
+	var endScale = (endHeight/startHeight);
 
-	if ($(document).scrollTop() < travel && $(document).scrollTop() > 0) {
-		$('.top-bar').css('height', startHeight - $(document).scrollTop());
-		$('.title-area').css('-webkit-transform', 'scale(' + scale + ', ' + scale + ')');
+	if (currentPosition < travel ) {
+		$('.top-bar').css('height', startHeight - currentPosition);
+		$('.title-area').css('transform', 'scale(' + scale + ', ' + scale + ')');
 		$('.top-nav ul a').css({
-			'line-height': startHeight - $(document).scrollTop() + 'px',
-			'height': startHeight - $(document).scrollTop() + 'px',
+			'line-height': startHeight - currentPosition + 'px',
+			'height': startHeight - currentPosition + 'px',
 		});
 
+		return;
 	}
 
+/*
 	if ($(document).scrollTop() <= 0) {
 		$('.top-bar').css('height', startHeight);
-		$('.title-area').css('-webkit-transform', 'scale(1, 1)');
+		$('.title-area').css('transform', 'scale(1, 1)');
 		$('.top-nav ul a').css({
 			'line-height': startHeight + 'px',
 			'height': startHeight + 'px',
 		});
 		$('.top-nav a.active').removeClass('active');
 		$('.top-nav a').first().addClass('active');
-	}
 
-	if ($(document).scrollTop() >= endHeight) {
-		$('.top-bar').css('height', travel);
-		$('.title-area').css('-webkit-transform', 'scale(' + endScale + ', ' + endScale + ')');
-		$('.top-nav ul a').css('line-height', travel + 'px');
+		return;
+	}
+*/
+
+	if (currentPosition >= endHeight) {
+		$('.top-bar').css('height', endHeight);
+		$('.title-area').css('transform', 'scale(' + endScale + ', ' + endScale + ')');
 		$('.top-nav ul a').css({
-			'line-height': travel + 'px',
-			'height': travel + 'px',
+			'line-height': endHeight + 'px',
+			'height': endHeight + 'px',
 		});
+
+		return;
 	}
 });

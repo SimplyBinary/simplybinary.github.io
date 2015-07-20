@@ -39,8 +39,8 @@ $scale: $top-nav-height-condensed/$top-nav-height;
       display: inline-block;
       font-family: $font-family-base;
       font-size: 16px;
-      height: $top-nav-height;
-      line-height: $top-nav-height;
+      height: $top-nav-height-condensed;
+      line-height: $top-nav-height-condensed;
       padding: 0;
       text-transform: uppercase;
       transform-origin: center top;
@@ -57,13 +57,32 @@ $scale: $top-nav-height-condensed/$top-nav-height;
 }
 
 .title-area {
+  height: 100%;
   transform-origin: left top;
 
   > li {
-    margin: 36px 0;
+    height: 100%;
+    padding: 36px 0;
   }
 }
 
 .top-bar-logo {
   height: 42px;
+}
+
+@media #{$medium-up} {
+  .top-nav {
+    ul {
+      li {
+        &:not(.has-form) {
+          margin: 0 27px;
+        }
+      }
+
+      a:not(.button) {
+        height: $top-nav-height;
+        line-height: $top-nav-height;
+      }
+    }
+  }
 }
