@@ -36,9 +36,8 @@ gulp.task('css', function() {
 
 gulp.task('js', function() {
 	return gulp.src('js/**/*.js')
+		.pipe(addsrc.prepend('bower_components/jquery.scrollto/jquery.scrollto.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-scrollspy-thesmart/scrollspy.js'))
-		.pipe(addsrc.prepend('bower_components/foundation/js/foundation/foundation.topbar.js'))
-		.pipe(addsrc.prepend('bower_components/foundation/js/foundation.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-cookie/jquery.cookie.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-placeholder/jquery.placeholder.js'))
 		.pipe(addsrc.prepend('bower_components/jquery/dist/jquery.js'))
