@@ -1,5 +1,4 @@
 // header.scss
-$scale: $top-nav-height-condensed/$top-nav-height;
 
 .top-bar {
   background-color: $dark-grey;
@@ -28,7 +27,7 @@ $scale: $top-nav-height-condensed/$top-nav-height;
 
       &:not(.has-form) {
         background-color: transparent;
-        margin: 0 27px;
+        margin: 0 5px;
       }
     }
 
@@ -73,15 +72,21 @@ $scale: $top-nav-height-condensed/$top-nav-height;
 @media #{$medium-up} {
   .top-nav {
     ul {
-      li {
-        &:not(.has-form) {
-          margin: 0 27px;
-        }
-      }
-
       a:not(.button) {
         height: $top-nav-height;
         line-height: $top-nav-height;
+      }
+    }
+  }
+}
+
+@media #{$large-up} {
+  .top-nav {
+    ul {
+      li {
+        &:not(.has-form) {
+          margin: 0 24px;
+        }
       }
     }
   }
