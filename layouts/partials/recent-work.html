@@ -12,10 +12,9 @@
 			<div class="medium-9 columns">
 				<h6>
 					{{ .Title }}
-					<span class="date right">{{ .Date.Format "January 2006"}}</span>
 				</h6>
 				<p>
-					{{ substr .Summary 3 -5 }}
+					{{ .Summary }}
 					{{ if .Truncated }}
 					<a href="{{ .RelPermalink }}">Learn more &raquo;</a>
 					{{ end }}
