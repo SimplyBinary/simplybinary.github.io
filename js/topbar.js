@@ -1,5 +1,7 @@
 // topbar.js
 
+$('.top-nav a[href$="#"]').addClass('active');
+
 $('div[id]').each(function(index) {
 	var position = $(this).position();
 	var id = $(this).attr('id');
