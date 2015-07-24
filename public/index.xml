@@ -2,38 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simply Binary</title>
-    <link>http://simplybinary.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Jul 2015 11:18:36 -0400</lastBuildDate>
-    <atom:link href="http://simplybinary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/class/test/</link>
+      <pubDate>Tue, 21 Jul 2015 19:10:58 -0400</pubDate>
+      
+      <guid>http://localhost:1313/class/test/</guid>
+      <description>
+
+&lt;h2 id=&#34;this-is-a-headline:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;This is a Headline&lt;/h2&gt;
+
+&lt;p&gt;Summa consilium, sceleri, lotos carpitur, sibi gaudete &lt;a href=&#34;http://www.lipsum.com/&#34;&gt;luco
+sumat&lt;/a&gt; speciem, sic cui sus succincta. Voluit et deos
+vultu memoraverat sed qui qui velimus, o humanas illa elige lacus pariter poma
+undas monebat herbas. Servat &lt;a href=&#34;http://www.billmays.net/&#34;&gt;flammis&lt;/a&gt; esse primamque
+in de me perdere pectore, consumpta faces: ad superest tenuata aere, sunt? Fama
+atque procul. Inposita in pelagi super sponte.&lt;/p&gt;
+
+&lt;p&gt;Iovi reduxi; quoque caesoque; aquae quam labores, citharam rediere crimine
+adventus! Tacito recurvam factus mirabile periit illo caesoque? Lux per ebur
+qui, huius vertigine mihi; dies Talibus istis. Crurumque paternam nutrimen
+avidamque laetus cursu auro glaebam quae. Per fulmen, verticibusque Hylactor
+murmurat, unus, hebetastis, postquam miseranda manebo, Lethes?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CaptureLife</title>
-      <link>http://simplybinary.github.io/work/CaptureLife/</link>
+      <link>http://localhost:1313/work/CaptureLife/</link>
       <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/CaptureLife/</guid>
+      <guid>http://localhost:1313/work/CaptureLife/</guid>
       <description>&lt;p&gt;Re-imagining how you organize, collect, and browse all your photos in one place so you can easily capture, discover, and relive life. Currently responsible for operations and development from the desktop to the web in JavaScript, Go, Objective-C, and C#.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Kona by Deltek</title>
-      <link>http://simplybinary.github.io/work/Kona-by-Deltek/</link>
+      <link>http://localhost:1313/work/Kona-by-Deltek/</link>
       <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/Kona-by-Deltek/</guid>
+      <guid>http://localhost:1313/work/Kona-by-Deltek/</guid>
       <description>&lt;p&gt;Social collaboration for projects and teams. A virtual equivalent to an open office environment for any organization to connect, stay organized, and be productive. We were hired for our extensive knowledge of ruby and worked on the project from first commit to years after launching.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Barbri | Law Preview</title>
-      <link>http://simplybinary.github.io/work/Barbri-Law-Preview/</link>
+      <link>http://localhost:1313/work/Barbri-Law-Preview/</link>
       <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/Barbri-Law-Preview/</guid>
+      <guid>http://localhost:1313/work/Barbri-Law-Preview/</guid>
       <description>&lt;p&gt;Training for the nation&amp;rsquo;s top law students. Helping you to organize, prepare, and conquer law school and exams. Currently responsible for supporting both back-end and front-end development in PHP and Javascript.&lt;/p&gt;
 </description>
     </item>
