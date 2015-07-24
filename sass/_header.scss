@@ -42,7 +42,7 @@
       line-height: $top-nav-height-condensed;
       padding: 0;
       text-transform: uppercase;
-      transform-origin: center top;
+      transition: border $top-nav-transition-speed, color $top-nav-transition-speed;
 
       &.active,
       &:active,

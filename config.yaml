@@ -12,7 +12,7 @@ menu:
     - Name: "Home"
       Weight: 1
       Identifier: "home"
-      URL: "#home"
+      URL: "#"
     - Name: "Process"
       Weight: 2
       Identifier: "process"
