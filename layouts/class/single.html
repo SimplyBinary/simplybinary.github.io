@@ -2,6 +2,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{{ if .Params.noindex }}
+		<meta name="robots" content="noindex" />
+		{{ end }}
 		<base href="{{ .Site.BaseURL }}">
 		<link rel="canonical" href="{{ .Permalink }}">
 		<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -10,31 +13,58 @@
 		<title>{{ .Title }} | {{ .Site.Title }}</title>
 	</head>
 	<body class="training-class">
-		<div class="section section-header" style="background-image: url('http://lorempixel.com/1200/800')">
-			<div class="row">
-				<div class="medium-12 columns text-center">
-					<h1>{{ .Title }}</h1>
+		<div class="section header" style="background-image: url('http://lorempixel.com/1200/800')">
+			<div class="header-content centered-paragraphs">
+				<div class="row">
+					<div class="medium-12 columns text-center">
+						<h1>{{ .Title }}</h1>
+						<p>{{ .Params.tagline }}</p>
+						<h4>
+							{{ if .Params.startdate}}
+								{{ dateFormat "Jan 2nd, 2006" .Params.startdate }}
+							{{ end }}
+							{{ if .Params.enddate}}
+								- {{ dateFormat "Jan 2nd, 2006" .Params.enddate }}
+							{{ end }}
+							@
+							{{ if .Params.venu }}
+								{{ .Params.venu }}
+							{{ end }}
+							{{ if .Params.address }}
+								{{ .Params.address }}
+							{{ end }}
+						</h4>
+							{{ if .Params.signupurl}}
+								<a href="{{ .Params.signupurl }}" class="button"
+								{{ if false }}
+									disabled="disabled"
+								{{ end }}
+								target="_blank">Sign Up</a>
+							{{ end }}
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="section">
+		<div class="section about centered-paragraphs">
 			<div class="row">
-				<div class="medium-12 columns">
-					{{ .Content }}
+				<div class="medium-8 columns medium-centered">
+					{{ .Summary }}
 				</div>
 			</div>
 		</div>
 		<div class="section section-with-background-color">
 			<div class="row">
-				<div class="medium-5 columns">
+				<div class="large-8 columns">
 					<h3>Details</h3>
-					{{ if .Params.moreinfo }}
-						{{ .Params.moreinfo }}
+					{{ if .Content }}
+						{{ replace .Content .Summary "" | safeHTML }}
 					{{ end }}
 				</div>
-				<div class="medium-7 columns">
-					<img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center=Greenville, SC, USA&size=800x800&scale=2&zoom=14">
-					</div>
+				<div class="large-4 columns">
+					<i class="fa fa-map-marker"></i>
+					<a class="th" href="http://maps.google.com/maps?q={{ .Params.address }}" target="_blank">
+						<img class="map" src="https://maps.googleapis.com/maps/api/staticmap?center={{ .Params.address }}&size=630x630&scale=2&zoom=16">
+					</a>
 				</div>
 			</div>
 		</div>

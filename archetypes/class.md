@@ -4,11 +4,12 @@ endDate: ""
 googleAnalyticsCode: ""
 rsvpCloseDate: ""
 rsvpOpenDate: ""
-signupForm: ""
+signupURL: ""
 startDate: ""
 locationVenu: ""
 tagline: ""
 instructors:
 	- "A"
 	- "B"
+noindex: "true"
 ---
