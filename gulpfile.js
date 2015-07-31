@@ -25,17 +25,32 @@ gulp.task('css', function() {
 		}))
 		.pipe(sass())
 		.pipe(autoprefixer('last 2 version'))
+		.pipe(addsrc.prepend('bower_components/animate.css/animate.css'))
 		.pipe(addsrc.prepend('bower_components/font-awesome/css/font-awesome.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/foundation.css'))
 		.pipe(addsrc.prepend('bower_components/foundation/css/normalize.css'))
 		.pipe(concat('styles.min.css'))
-		.pipe(uncss({html: ['public/**/*.html'], ignore: [/hover/, /focus/, /active/, /visited/, /not/, /condensed/]}))
+		.pipe(uncss({
+			html: ['public/**/*.html'],
+			ignore: [
+				/hover/,
+				/focus/,
+				/active/,
+				/visited/,
+				/not/,
+				/condensed/,
+				/error/,
+				/animated/,
+				/infinite/, /flipOutY/, /fadeInUp/, /shake/
+			]
+		}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('static/css'))
 });
 
 gulp.task('js', function() {
 	return gulp.src('js/**/*.js')
+		.pipe(addsrc.prepend('bower_components/jquery-validation/dist/jquery.validate.js'))
 		.pipe(addsrc.prepend('bower_components/jquery.scrollto/jquery.scrollto.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-scrollspy/jquery-scrollspy.js'))
 		.pipe(addsrc.prepend('bower_components/jquery-cookie/jquery.cookie.js'))

@@ -2,40 +2,18 @@
 	<div class="medium-12 columns contact">
 		<h5>Contact</h5>
 		<hr>
-		<form action="http://simplybinary.us10.list-manage1.com/subscribe/post" method="POST">
-			<input type="hidden" name="u" value="7a9f4c1e4a01df4075d67356e">
-			<input type="hidden" name="id" value="e974b1bb2f">
-			<input type="hidden" name="orig-lang" value="1">
+		<div id="post-submit-message" style="display: none;">
+			<h2>Thanks!<h2>
+			<p>We got your message. We'll be in touch shortly</p>
+		</div>
+		<form id="contact-form" action="https://zapier.com/hooks/catch/bxuz81/" method="POST">
 			<div class="panel radius">
 				<h6>Say Hello!</h6>
 				<p>How can we help you?</p>
-
-				<label for="MERGE0" class="show-for-sr">Email Address <span class="req asterisk">*</span></label>
-				<div class="field-group">
-					<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Email Address">
-				</div>
-
-				<label for="MERGE1" class="show-for-sr">First Name</label>
-				<div class="field-group">
-					<input type="text" name="MERGE1" id="MERGE1" size="25" value="" placeholder="First Name">
-				</div>
-
-				<label for="MERGE2" class="show-for-sr">Last Name</label>
-				<div class="field-group">
-					<input type="text" name="MERGE2" id="MERGE2" size="25" value="" placeholder="Last Name">
-				</div>
-
-				<label for="MERGE3" class="show-for-sr">Company</label>
-				<div class="field-group">
-					<input type="text" name="MERGE3" id="MERGE3" size="25" value="" placeholder="Company">
-				</div>
-
-				<label for="MERGE4" class="show-for-sr">What you're looking for...</label>
-				<div class="field-group">
-					<textarea name="MERGE4" id="MERGE4" rows="12" value="" placeholder="What you're looking for..."></textarea>
-				</div>
-				<!-- real people should not fill this in and expect good things -->
-				<div class="show-for-sr"><input type="text" name="b_7a9f4c1e4a01df4075d67356e_e974b1bb2f" tabindex="-1" value=""></div>
+				<input type="email" autocapitalize="off" autocorrect="off" name="email" id="MERGE0" size="20" value="" placeholder="Email Address" required="required">
+				<input type="text" name="name" id="MERGE1" size="25" value="" placeholder="Full Name" required="required">
+				<input type="text" name="company" id="MERGE3" size="25" value="" placeholder="Company">
+				<textarea name="body" id="MERGE4" rows="12" value="" placeholder="What you're looking for..." required="required"></textarea>
 			</div>
 			<input type="submit" class="button expand" name="submit" value="Send">
 		</form>
