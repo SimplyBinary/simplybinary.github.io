@@ -14,3 +14,17 @@ button {
     background-color: darken($color-primary, 10%);
   }
 }
+
+
+.section-with-background-color {
+  .button,
+  button {
+    background-color: $white;
+    color: $color-primary;
+
+    &:hover,
+    &:focus {
+      background-color: darken($white, 10%);
+    }
+  }
+}
