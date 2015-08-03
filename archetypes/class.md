@@ -1,4 +1,5 @@
 ---
+mailchimpListId: ""
 locationAddress: ""
 endDate: ""
 googleAnalyticsCode: ""

@@ -1,15 +1,15 @@
 ---
-address: "101 N Main st, Greenville, SC, USA"
+address: "101 N Main St, Greenville, SC, USA"
 date: "2015-07-21T19:10:58-04:00"
 endDate: "2015-10-09T09:00:00-04:00"
 googleAnalyticsCode: ""
+mailchimpListId: "8af9023e64"
 rsvpCloseDate: "2015-10-09T09:00:00-04:00"
 rsvpOpenDate: "2015-07-21T19:10:58-04:00"
-signupURL: "http://eepurl.com/btJFsr"
 startDate: "2015-10-09T17:00:00-04:00"
 tagline: "Tagline here. Maybe a hook or somthing interesting about Git."
 title: "test"
-venu: ""
+venu: "OpenWorks"
 noindex: true
 
 ---
