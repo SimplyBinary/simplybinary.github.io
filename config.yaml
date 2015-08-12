@@ -6,7 +6,7 @@ indexes:
 baseURL: "http://simplybinary.github.io"
 title: "Simply Binary"
 canonifyURLs: true
-metaDataFormat:: "yaml"
+metaDataFormat: "yaml"
 menu:
   main:
     - Name: "Home"
