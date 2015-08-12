@@ -9,14 +9,14 @@
     <atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>test</title>
-      <link>http://localhost:1313/classes/test/</link>
+      <title>Git for Teams</title>
+      <link>http://localhost:1313/classes/Git-for-Teams/</link>
       <pubDate>Tue, 21 Jul 2015 19:10:58 -0400</pubDate>
       
-      <guid>http://localhost:1313/classes/test/</guid>
+      <guid>http://localhost:1313/classes/Git-for-Teams/</guid>
       <description>
 
-&lt;h2 id=&#34;this-is-a-headline:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;This is a Headline&lt;/h2&gt;
+&lt;h2 id=&#34;this-is-a-headline:c0ee7808d520cea99ca2952d691d2245&#34;&gt;This is a Headline&lt;/h2&gt;
 
 &lt;p&gt;Summa consilium, sceleri, lotos carpitur, sibi gaudete &lt;a href=&#34;http://www.lipsum.com/&#34;&gt;luco
 sumat&lt;/a&gt; speciem, sic cui sus succincta. Voluit et deos
@@ -31,9 +31,9 @@ qui, huius vertigine mihi; &lt;code&gt;{this is &amp;lt;some&amp;gt; inline code
 avidamque laetus cursu auro glaebam quae. Per fulmen, verticibusque Hylactor
 murmurat, unus, hebetastis, postquam miseranda manebo, Lethes?&lt;/p&gt;
 
-&lt;h2 id=&#34;syllabus:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Syllabus&lt;/h2&gt;
+&lt;h2 id=&#34;syllabus:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Syllabus&lt;/h2&gt;
 
-&lt;h3 id=&#34;level-three-heading:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Level Three Heading&lt;/h3&gt;
+&lt;h3 id=&#34;level-three-heading:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Level Three Heading&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;One&lt;/li&gt;
@@ -41,7 +41,7 @@ murmurat, unus, hebetastis, postquam miseranda manebo, Lethes?&lt;/p&gt;
 &lt;li&gt;Three&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;a-level-four-heading:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;A Level Four Heading&lt;/h4&gt;
+&lt;h4 id=&#34;a-level-four-heading:c0ee7808d520cea99ca2952d691d2245&#34;&gt;A Level Four Heading&lt;/h4&gt;
 
 &lt;ol&gt;
 &lt;li&gt;An&lt;/li&gt;

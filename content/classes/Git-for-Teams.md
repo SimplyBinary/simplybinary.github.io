@@ -7,10 +7,10 @@ mailchimpListId: "8af9023e64"
 rsvpCloseDate: "2015-10-09T09:00:00-04:00"
 rsvpOpenDate: "2015-07-21T19:10:58-04:00"
 startDate: "2015-10-09T17:00:00-04:00"
-tagline: "Tagline here. Maybe a hook or somthing interesting about Git."
-title: "test"
+tagline: "Sharpen your individual git skills while learning effective methods for working with distributed version control as a part of a team."
+title: "Git for Teams"
 venu: "OpenWorks"
-noindex: true
+noindex: false
 
 ---
 
