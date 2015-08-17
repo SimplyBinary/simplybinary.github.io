@@ -21,10 +21,10 @@
 						<p>{{ .Params.tagline }}</p>
 						<h4>
 							{{ if .Params.startdate}}
-								{{ dateFormat "Jan 2nd, 2006" .Params.startdate }}
+								{{ dateFormat "Jan 2, 2006" .Params.startdate }}
 							{{ end }}
 							{{ if .Params.enddate}}
-								- {{ dateFormat "Jan 2nd, 2006" .Params.enddate }}
+								- {{ dateFormat "Jan 2, 2006" .Params.enddate }}
 							{{ end }}
 							@
 							{{ if .Params.venu }}
