@@ -2,59 +2,61 @@
 address: "101 N Main St, Greenville, SC, USA"
 date: "2015-07-21T19:10:58-04:00"
 endDate: "2015-10-09T09:00:00-04:00"
-googleAnalyticsCode: ""
 mailchimpListId: "8af9023e64"
 rsvpCloseDate: "2015-10-09T09:00:00-04:00"
 rsvpOpenDate: "2015-07-21T19:10:58-04:00"
 startDate: "2015-10-09T17:00:00-04:00"
-tagline: "Sharpen your individual git skills while learning effective methods for working with distributed version control as a part of a team."
+tagline: "If you or your team is struggling to use Git effectively or If you know you could get more from your VCS, this class is for you."
 title: "Git for Teams"
 venu: "OpenWorks"
 noindex: false
 
 ---
 
-## This is a Headline
+## This isn't Your Average Git Course
 
-Summa consilium, sceleri, lotos carpitur, sibi gaudete [luco
-sumat](http://www.lipsum.com/) speciem, sic cui sus succincta. Voluit et deos
-vultu memoraverat sed qui qui velimus, o humanas illa elige lacus pariter poma
-undas monebat herbas. Servat [flammis](http://www.billmays.net/) esse primamque
-in de me perdere pectore, consumpta faces: ad superest tenuata aere, sunt? Fama
-atque procul. Inposita in pelagi super sponte.
+From the get-go you'll be hands on with git. The material is presented with short vi
 
-Iovi reduxi; quoque caesoque; aquae quam labores, citharam rediere crimine
-adventus! Tacito recurvam factus mirabile periit illo caesoque? Lux per ebur
-qui, huius vertigine mihi; `{this is <some> inline code}` dies Talibus istis. Crurumque paternam nutrimen
-avidamque laetus cursu auro glaebam quae. Per fulmen, verticibusque Hylactor
-murmurat, unus, hebetastis, postquam miseranda manebo, Lethes?
+It doesn't matter if you attend solo or bring your entire team, you'll get just as much out of Git for Teams wither way. Most of the concepts, patterns, and pratices that we'll cover can be implemented one at a time by individuals, but they really shine when used together.
 
 ## Syllabus
 
-### Level Three Heading
+### Individual Skills
 
-* One
-* Two
-* Three
+#### Review the Basics
 
-#### A Level Four Heading
+  * Good commit messages
+  * Merging branches
+  * Introduction to the "three trees"
 
-1. An
-2. Ordered
-3. List
+#### Manitulating the Trees
+
+  * `reset`
+  * `add -p`
+  * `commit --amend`
+
+#### Rewriting History
+
+  * `reset` and `rebase`
+  * `rebase -i`
+    * `squash`
+    * `reword`
+    * `reorder`
+    * `skip`
+
+### Team Skills
+
+  * Multiple remotes/Forking
+  * PR/Upstream
+  * Process for accepting testing and accepting PR
+  * bisect & bisecting with tests
+  * Continuous Integration
 
 <!--more-->
 
-Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
-ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a
-purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in,
-lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo
-pede, ornare a, lacinia eu, vulputate vel, nisl.
+All you'll need is your laptop you use with Git regularly. Particpents shoud be comfortable using the command line and have a basic understanding of the following concepts:
 
-Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi
-ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet
-nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel,
-arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget
-arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat
-est.
+  * Cloning
+	* Branching
+	* Commiting
+	* Pushing
