@@ -16,52 +16,67 @@
       <guid>http://localhost:1313/classes/Git-for-Teams/</guid>
       <description>
 
-&lt;h2 id=&#34;this-is-a-headline:c0ee7808d520cea99ca2952d691d2245&#34;&gt;This is a Headline&lt;/h2&gt;
+&lt;h2 id=&#34;this-isn-t-your-average-git-course:c0ee7808d520cea99ca2952d691d2245&#34;&gt;This isn&amp;rsquo;t Your Average Git Course&lt;/h2&gt;
 
-&lt;p&gt;Summa consilium, sceleri, lotos carpitur, sibi gaudete &lt;a href=&#34;http://www.lipsum.com/&#34;&gt;luco
-sumat&lt;/a&gt; speciem, sic cui sus succincta. Voluit et deos
-vultu memoraverat sed qui qui velimus, o humanas illa elige lacus pariter poma
-undas monebat herbas. Servat &lt;a href=&#34;http://www.billmays.net/&#34;&gt;flammis&lt;/a&gt; esse primamque
-in de me perdere pectore, consumpta faces: ad superest tenuata aere, sunt? Fama
-atque procul. Inposita in pelagi super sponte.&lt;/p&gt;
+&lt;p&gt;From the get-go you&amp;rsquo;ll be hands on with git. The material is presented with short vi&lt;/p&gt;
 
-&lt;p&gt;Iovi reduxi; quoque caesoque; aquae quam labores, citharam rediere crimine
-adventus! Tacito recurvam factus mirabile periit illo caesoque? Lux per ebur
-qui, huius vertigine mihi; &lt;code&gt;{this is &amp;lt;some&amp;gt; inline code}&lt;/code&gt; dies Talibus istis. Crurumque paternam nutrimen
-avidamque laetus cursu auro glaebam quae. Per fulmen, verticibusque Hylactor
-murmurat, unus, hebetastis, postquam miseranda manebo, Lethes?&lt;/p&gt;
+&lt;p&gt;It doesn&amp;rsquo;t matter if you attend solo or bring your entire team, you&amp;rsquo;ll get just as much out of Git for Teams wither way. Most of the concepts, patterns, and pratices that we&amp;rsquo;ll cover can be implemented one at a time by individuals, but they really shine when used together.&lt;/p&gt;
 
 &lt;h2 id=&#34;syllabus:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Syllabus&lt;/h2&gt;
 
-&lt;h3 id=&#34;level-three-heading:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Level Three Heading&lt;/h3&gt;
+&lt;h3 id=&#34;individual-skills:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Individual Skills&lt;/h3&gt;
+
+&lt;h4 id=&#34;review-the-basics:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Review the Basics&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;One&lt;/li&gt;
-&lt;li&gt;Two&lt;/li&gt;
-&lt;li&gt;Three&lt;/li&gt;
+&lt;li&gt;Good commit messages&lt;/li&gt;
+&lt;li&gt;Merging branches&lt;/li&gt;
+&lt;li&gt;Introduction to the &amp;ldquo;three trees&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;a-level-four-heading:c0ee7808d520cea99ca2952d691d2245&#34;&gt;A Level Four Heading&lt;/h4&gt;
+&lt;h4 id=&#34;manitulating-the-trees:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Manitulating the Trees&lt;/h4&gt;
 
-&lt;ol&gt;
-&lt;li&gt;An&lt;/li&gt;
-&lt;li&gt;Ordered&lt;/li&gt;
-&lt;li&gt;List&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;reset&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;add -p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;commit --amend&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a
-ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a
-purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in,
-lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo
-pede, ornare a, lacinia eu, vulputate vel, nisl.&lt;/p&gt;
+&lt;h4 id=&#34;rewriting-history:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Rewriting History&lt;/h4&gt;
 
-&lt;p&gt;Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi
-ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet
-nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel,
-arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget
-arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat
-est.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;rebase&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rebase -i&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;squash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reword&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reorder&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skip&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;team-skills:c0ee7808d520cea99ca2952d691d2245&#34;&gt;Team Skills&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Multiple remotes/Forking&lt;/li&gt;
+&lt;li&gt;PR/Upstream&lt;/li&gt;
+&lt;li&gt;Process for accepting testing and accepting PR&lt;/li&gt;
+&lt;li&gt;bisect &amp;amp; bisecting with tests&lt;/li&gt;
+&lt;li&gt;Continuous Integration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All you&amp;rsquo;ll need is your laptop you use with Git regularly. Particpents shoud be comfortable using the command line and have a basic understanding of the following concepts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloning
+
+&lt;ul&gt;
+&lt;li&gt;Branching&lt;/li&gt;
+&lt;li&gt;Commiting&lt;/li&gt;
+&lt;li&gt;Pushing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
