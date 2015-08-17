@@ -20,18 +20,25 @@
 						<h1>{{ .Title }}</h1>
 						<p>{{ .Params.tagline }}</p>
 						<h4>
-							{{ if .Params.startdate}}
-								{{ dateFormat "Jan 2, 2006" .Params.startdate }}
+							{{ with .Params.startdate }}
+								{{ dateFormat "Jan 2, 2006" . }}
 							{{ end }}
-							{{ if .Params.enddate}}
-								- {{ dateFormat "Jan 2, 2006" .Params.enddate }}
+							{{ with .Params.startdate }}
+								{{ dateFormat "3:04pm" . }}
 							{{ end }}
-							@
-							{{ if .Params.venu }}
-								{{ .Params.venu }}
+								-
+							{{ if ne (dateFormat "Jan 2, 2006" .Params.startdate) (dateFormat "Jan 2, 2006" .Params.enddate) }}
+								{{ dateFormat "Jan 2, 2006" .Params.enddate }}
 							{{ end }}
-							{{ if .Params.address }}
-								{{ .Params.address }}
+							{{ with .Params.enddate }}
+								 {{ dateFormat "3:04pm" . }}
+							{{ end }}
+							<br>
+							{{ with .Params.venu }}
+								{{ . }}
+							{{ end }}
+							{{ with .Params.address }}
+								{{ . }}
 							{{ end }}
 						</h4>
 						{{ partial "class-sign-up.html" . }}
