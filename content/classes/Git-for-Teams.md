@@ -10,6 +10,7 @@ tagline: "If you or your team is struggling to use Git effectively or If you kno
 title: "Git for Teams"
 venu: "OpenWorks"
 noindex: false
+signupText: "Find out More"
 
 ---
 
