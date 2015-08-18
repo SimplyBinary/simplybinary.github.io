@@ -68,6 +68,18 @@
 					</a>
 				</div>
 			</div>
+			<div class="row">
+				<div class="large-4 columns large-offset-8">
+					<h2>
+					{{ with .Params.venu }}
+						{{ . }}<br>
+					{{ end }}
+					{{ with .Params.address }}
+						{{ . }}
+					{{ end }}
+					</h2>
+				</div>
+			</div>
 		</div>
 		<div class="section sign-up">
 			<div class="row">
