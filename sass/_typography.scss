@@ -75,6 +75,12 @@ a {
   color: $color-primary;
   font-family: $font-family-heading;
   font-weight: $font-weight-normal;
+  transition: color .2s;
+
+  &:hover,
+  &:focus {
+    color: darken($color-primary, 10%);
+  }
 }
 
 .fa-ul {
