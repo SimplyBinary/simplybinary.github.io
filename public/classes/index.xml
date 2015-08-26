@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Simply Binary</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Simply Binary</description>
+    <title>Classes on Simply Binary</title>
+    <link>http://localhost:1313/classes/</link>
+    <description>Recent content in Classes on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git for Teams</title>
@@ -82,36 +82,6 @@
 &lt;p&gt;All you&amp;rsquo;ll need is your laptop you use with Git regularly. Participants should be comfortable using the command line and have a basic understanding of, cloning, branching, committing, and pushing.&lt;/p&gt;
 
 &lt;p&gt;The one day class includes lunch and runs from 9:00am to 5:00pm. The cost is $399 per person. &lt;a href=&#34;mailto:training@simmplybinary.com&#34;&gt;Contact us&lt;/a&gt; for team discounts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CaptureLife</title>
-      <link>http://localhost:1313/work/CaptureLife/</link>
-      <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
-      
-      <guid>http://localhost:1313/work/CaptureLife/</guid>
-      <description>&lt;p&gt;Re-imagining how you organize, collect, and browse all your photos in one place so you can easily capture, discover, and relive life. Currently responsible for operations and development from the desktop to the web in JavaScript, Go, Objective-C, and C#.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kona by Deltek</title>
-      <link>http://localhost:1313/work/Kona-by-Deltek/</link>
-      <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
-      
-      <guid>http://localhost:1313/work/Kona-by-Deltek/</guid>
-      <description>&lt;p&gt;Social collaboration for projects and teams. A virtual equivalent to an open office environment for any organization to connect, stay organized, and be productive. We were hired for our extensive knowledge of ruby and worked on the project from first commit to years after launching.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Barbri | Law Preview</title>
-      <link>http://localhost:1313/work/Barbri-Law-Preview/</link>
-      <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
-      
-      <guid>http://localhost:1313/work/Barbri-Law-Preview/</guid>
-      <description>&lt;p&gt;Training for the nation&amp;rsquo;s top law students. Helping you to organize, prepare, and conquer law school and exams. Currently responsible for supporting both back-end and front-end development in PHP and Javascript.&lt;/p&gt;
 </description>
     </item>
     

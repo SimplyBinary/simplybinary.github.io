@@ -1,0 +1,20 @@
+<div id="post-submit-message" style="display: none;">
+	<h4>Thanks! We'll keep you in the loop!</h4>
+	<p>If you have any questions please feel free to contact us at <a href="mailto:training@simplybinary.com">trainging@simplybinary.com</a></p>
+</div>
+<form class="sign-up-form" action="https://zapier.com/hooks/catch/bxr37a/" method="POST">
+	<input type="hidden" name="mailchimpListId" value="{{ .Params.mailchimplistid }}">
+	<div class="row">
+		<div class="medium-8 columns small-centered">
+			<input type="text" name="name" placeholder="Full Name" required="required">
+		</div>
+		<div class="medium-8 columns small-centered">
+			<input type="email" autocapitalize="off" autocorrect="off" name="email" placeholder="Email Address" required="required">
+		</div>
+	</div>
+	<div class="row">
+		<div class="medium-8 columns small-centered">
+			<input type="submit" class="button expand" name="submit" value="{{ .Params.signuptext }}">
+		</div>
+	</div>
+</form>
