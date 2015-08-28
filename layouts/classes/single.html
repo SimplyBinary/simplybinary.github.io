@@ -14,37 +14,7 @@
 	</head>
 	<body class="training-class">
 		<div class="section header" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=34.8490239,-82.3997974&zoom=15&size=1200x800&scale=2&maptype=satellite&format=jpg')">
-			<div class="header-content centered-paragraphs">
-				<div class="row">
-					<div class="medium-8 medium-centered columns text-center">
-						<h1>{{ .Title }}</h1>
-						<p>{{ .Params.tagline }}</p>
-						<h4>
-							{{ with .Params.startdate }}
-								{{ dateFormat "Jan 2, 2006" . }}
-							{{ end }}
-							{{ with .Params.startdate }}
-								{{ dateFormat "3:04pm" . }}
-							{{ end }}
-								-
-							{{ if ne (dateFormat "Jan 2, 2006" .Params.startdate) (dateFormat "Jan 2, 2006" .Params.enddate) }}
-								{{ dateFormat "Jan 2, 2006" .Params.enddate }}
-							{{ end }}
-							{{ with .Params.enddate }}
-								 {{ dateFormat "3:04pm" . }}
-							{{ end }}
-							<br>
-							{{ with .Params.venu }}
-								{{ . }}
-							{{ end }}
-							{{ with .Params.address }}
-								{{ . }}
-							{{ end }}
-						</h4>
-						{{ partial "class-sign-up.html" . }}
-					</div>
-				</div>
-			</div>
+			{{ partial "training/header-content" . }}
 		</div>
 		<div class="section about">
 			<div class="row">

@@ -1,0 +1,34 @@
+<div class="header-content centered-paragraphs">
+	<div class="row">
+		<div class="medium-8 medium-centered columns text-center">
+			<h1>{{ .Title }}</h1>
+			<p>{{ .Params.tagline }}</p>
+			<h4>
+{{/*
+				{{ with .Params.startdate }}
+					{{ dateFormat "Jan 2, 2006" . }}
+				{{ end }}
+				{{ with .Params.startdate }}
+					{{ dateFormat "3:04pm" . }}
+				{{ end }}
+					-
+				{{ if ne (dateFormat "Jan 2, 2006" .Params.startdate) (dateFormat "Jan 2, 2006" .Params.enddate) }}
+					{{ dateFormat "Jan 2, 2006" .Params.enddate }}
+				{{ end }}
+				{{ with .Params.enddate }}
+					 {{ dateFormat "3:04pm" . }}
+				{{ end }}
+*/}}
+				Fall 2015
+				<br>
+				{{ with .Params.venu }}
+					{{ . }}
+				{{ end }}
+				{{ with .Params.address }}
+					{{ . }}
+				{{ end }}
+			</h4>
+			{{ partial "class-sign-up.html" . }}
+		</div>
+	</div>
+</div>
