@@ -2,6 +2,9 @@
 address: "101 N Main St, Greenville, SC, USA"
 date: "2015-07-21T19:10:58-04:00"
 endDate: "2015-10-16T17:00:00-04:00"
+instructors:
+  - Pete Broderick
+  - Andrew Lechowicz
 mailchimpListId: "8af9023e64"
 rsvpCloseDate: "2015-10-16T09:00:00-04:00"
 rsvpOpenDate: "2015-07-21T19:10:58-04:00"
