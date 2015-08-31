@@ -11,6 +11,7 @@
 		<link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:700' rel='stylesheet' type='text/css'>
 		<title>{{ .Title }} | {{ .Site.Title }}</title>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
 	</head>
 	<body class="training-class">
 		<div class="section header" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=34.8490239,-82.3997974&zoom=15&size=1200x800&scale=2&maptype=satellite&format=jpg')">
@@ -57,10 +58,37 @@
 					<h2>Sign Up Today</h2>
 					<p class="text-center">All we need is your name and email. We'll contact you with more details once registration opens.</p>
 					{{ partial "class-sign-up.html" . }}
+          <button class="button primary expand stripe-checkout-button">Sign Up</button>
 				</div>
 			</div>
 		</div>
 		{{ partial "footer.html" . }}
 	</body>
 	<script src="{{ "js/app.min.js" | absURL }}" type="text/javascript"></script>
+  <script>
+    var handler = StripeCheckout.configure({
+      key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+      image: '/img/simply-binary-no-text-for-rounded.jpg',
+      locale: 'auto',
+      token: function(token) {
+        // Use the token to create the charge with a server-side script.
+        // You can access the token ID with `token.id`
+      }
+    });
+
+    $('.stripe-checkout-button').on('click', function(e) {
+      // Open Checkout with further options
+      handler.open({
+        name: 'Simply Binary',
+        description: '1 ticket to {{ .Title }}',
+        amount: 39900
+      });
+      e.preventDefault();
+    });
+
+    // Close Checkout on page navigation
+    $(window).on('popstate', function() {
+      handler.close();
+    });
+  </script>
 </html>

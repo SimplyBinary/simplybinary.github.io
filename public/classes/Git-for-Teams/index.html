@@ -3,12 +3,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<base href="http://simplybinary.github.io">
-		<link rel="canonical" href="http://simplybinary.github.io/classes/Git-for-Teams/">
+		<base href="http://localhost:1313/">
+		<link rel="canonical" href="http://localhost:1313/classes/Git-for-Teams/">
 		<link href="" rel="alternate" type="application/rss+xml" title="Simply Binary" />
-		<link href="http://simplybinary.github.io/css/styles.min.css" rel="stylesheet" />
+		<link href="http://localhost:1313/css/styles.min.css" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:700' rel='stylesheet' type='text/css'>
 		<title>Git for Teams | Simply Binary</title>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
 	</head>
 	<body class="training-class">
 		<div class="section header" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=34.8490239,-82.3997974&zoom=15&size=1200x800&scale=2&maptype=satellite&format=jpg')">
@@ -190,6 +191,7 @@
 	</div>
 </form>
 
+          <button class="button primary expand stripe-checkout-button">Sign Up</button>
 				</div>
 			</div>
 		</div>
@@ -206,6 +208,35 @@
 	</div>
 </footer>
 
-	</body>
-	<script src="http://simplybinary.github.io/js/app.min.js" type="text/javascript"></script>
+	<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+	<script src="http://localhost:1313/js/app.min.js" type="text/javascript"></script>
+  <script>
+    var handler = StripeCheckout.configure({
+      key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+      image: '/img/simply-binary-no-text-for-rounded.jpg',
+      locale: 'auto',
+      token: function(token) {
+        
+        
+      }
+    });
+
+    $('.stripe-checkout-button').on('click', function(e) {
+      
+      handler.open({
+        name: 'Simply Binary',
+        description: '1 ticket to Git for Teams',
+        amount: 39900
+      });
+      e.preventDefault();
+    });
+
+    
+    $(window).on('popstate', function() {
+      handler.close();
+    });
+  </script>
 </html>
