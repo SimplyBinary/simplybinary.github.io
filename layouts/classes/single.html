@@ -11,6 +11,7 @@
 		<link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:700' rel='stylesheet' type='text/css'>
 		<title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ partial "favicons.html" . }}
 	</head>
 	<body class="training-class">
 		<div class="section header" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=34.8490239,-82.3997974&zoom=15&size=1200x800&scale=2&maptype=satellite&format=jpg')">
