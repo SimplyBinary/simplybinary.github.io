@@ -1,5 +1,11 @@
 Name: Pete Broderick
-"Short Description": "Pete has been writing software professionally for over a decade.  He has had the pleasure of working on many software applications from conception to maintenance, for clients large and small.  He is passionate about learning which keeps his skills sharp and ahead of the curve."
+"Short Description": "Pete is Co-Owner of Simply Binary, a software development company he started in 2009.  Pete has a degree in Computer Science from George Mason University and has been writing software professionally for over a decade.  When he's not spending time with his wife and two sons, you can find him learning a new programming language or web development framework."
+Expertise:
+  - Git
+  - Ruby
+  - Rails
+  - Javascript
+  - Linux
 Image: "img/pete.jpg"
 Twitter: peterbroderick
 Github: simplyb

@@ -1,35 +1,37 @@
-{{ $instructor_list := .Site.Data.Instructors }}
-{{ range $instructor := .Params.instructors }}
-  {{ range $instructor_list }}
-    {{ if eq .Name $instructor }}
-      <div class="row">
-        <div class="small-centered small-6 medium-2 medium-uncentered columns">
-          <img src="{{ .Image | relURL }}" alt="{{ .Name }}" class="team-member" />
-        </div>
-        <div class="small-12 medium-10 columns">
-          <h3>{{ .Name }}</h3>
-          <p>{{ index . "Short Description" | markdownify }}</p>
-          <ul class="inline-list social-list">
-            {{ with .Twitter }}
-              <li>
-                <a href="http://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter"></i> @{{ . }}</a>
-              </li>
-            {{ end }}
-            {{ with .Github }}
-              <li>
-                <a href="https://github.com/{{ . }}" target="_blank"><i class="fa fa-github"></i> @{{ . }}</a>
-              </li>
-            {{ end }}
-            {{ with .Website }}
-              <li>
-                <a href="{{ . }}" target="_blank"><i class="fa fa-globe"></i>
-                {{ replace  ( replace . "https://" "") "http://" "" }}
-                </a>
-              </li>
-            {{ end }}
-          </ul>
-        </div>
+{{ $instructor_list  := .Params.instructors }}
+{{ range .Site.Data.Instructors }}
+ {{ if in $instructor_list .Name }}
+    <div class="row">
+      <div class="small-centered small-6 medium-2 medium-uncentered columns">
+        <img src="{{ .Image | relURL }}" alt="{{ .Name }}" class="team-member" />
       </div>
-    {{ end }}
+      <div class="small-12 medium-10 columns">
+        <h3>{{ .Name }}</h3>
+        <p>{{ index . "Short Description" | markdownify }}</p>
+        {{ with .Expertise }}
+          Areas of Expertise:
+          {{ partial "inline-list.html" . }}
+        {{ end }}
+        <ul class="inline-list social-list">
+          {{ with .Twitter }}
+            <li>
+              <a href="http://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter"></i> @{{ . }}</a>
+            </li>
+          {{ end }}
+          {{ with .Github }}
+            <li>
+              <a href="https://github.com/{{ . }}" target="_blank"><i class="fa fa-github"></i> @{{ . }}</a>
+            </li>
+          {{ end }}
+          {{ with .Website }}
+            <li>
+              <a href="{{ . }}" target="_blank"><i class="fa fa-globe"></i>
+              {{ replace  ( replace . "https://" "") "http://" "" }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
   {{ end }}
 {{ end }}
