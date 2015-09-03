@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Simply Binary</title>
-    <link>http://simplybinary.github.io/classes/</link>
+    <link>http://localhost:1313/classes/</link>
     <description>Recent content in Classes on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate>
-    <atom:link href="http://simplybinary.github.io/classes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/classes/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git for Teams</title>
-      <link>http://simplybinary.github.io/classes/Git-for-Teams/</link>
+      <link>http://localhost:1313/classes/git-for-teams/</link>
       <pubDate>Tue, 21 Jul 2015 19:10:58 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/classes/Git-for-Teams/</guid>
+      <guid>http://localhost:1313/classes/git-for-teams/</guid>
       <description>
 
 &lt;h2 id=&#34;this-isn-t-your-average-git-seminar:c0ee7808d520cea99ca2952d691d2245&#34;&gt;This isn&amp;rsquo;t Your Average Git Seminar&lt;/h2&gt;
