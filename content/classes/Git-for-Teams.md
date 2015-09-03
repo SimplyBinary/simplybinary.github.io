@@ -14,7 +14,7 @@ title: "Git for Teams"
 venu: "OpenWorks"
 noindex: false
 signupText: "Find out More"
-
+slug: "git-for-teams"
 ---
 
 ## This isn't Your Average Git Seminar
