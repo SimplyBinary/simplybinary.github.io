@@ -9,7 +9,7 @@ mailchimpListId: "8af9023e64"
 rsvpCloseDate: "2015-10-16T09:00:00-04:00"
 rsvpOpenDate: "2015-07-21T19:10:58-04:00"
 startDate: "2015-11-06T09:00:00-04:00"
-tagline: "If you or your team is struggling to use Git effectively or If you know you could get more from your VCS, this class is for you."
+tagline: "If you or your team is struggling to use Git effectively or if you know you could get more from your VCS, this class is for you."
 title: "Git for Teams"
 venu: "OpenWorks"
 noindex: false
@@ -31,21 +31,21 @@ It doesn't matter if you attend solo or with your entire team, you'll get just a
 
   * Good commit messages
   * Merging branches
-  * Commit Only Some Changes in a File
+  * Commit only some changes in a file
 
 #### The Three Trees
 
   * Manipulating the three trees
-	* Reset, Revert, and Checkout Commits
-	* Reset, Revert, and Checkout Files
+	* Reset, revert, and checkout commits
+	* Reset, revert, and checkout files
 
 #### Rewrite History
 
-  * Adding to the Last Commit
-  * A Beautiful Git Log
-    * Reset to Undo Commits
-    * Combine Two or More Commits into One
-    * Edit Commit Messages
+  * Adding to the last commit
+  * A beautiful git log
+    * Reset to undo commits
+    * Combining two or more commits into one
+    * Editing commit messages
     * Reordering Commits
     * Skipping Commits
 
@@ -53,19 +53,19 @@ It doesn't matter if you attend solo or with your entire team, you'll get just a
 
 #### Branching Strategy
 
-  * Always Know Your Merge Target
-  * Multiple Remotes/Forking
+  * Always know your merge target
+  * Multiple remotes/forking
 
 #### Find Bad Commits
 
-  * Bisect & Bisecting with Tests
+  * Bisect & bisecting with tests
 
 #### Working as a Team
 
-  * Submitting Pull Requests
-  * Submitting Pull Requests to a Forked Upstream Repository
-  * Accepting Pull Requests
-  * Continuous Integration
+  * Submitting pull requests
+  * Submitting pull requests to a forked upstream repository
+  * Accepting pull requests
+  * Continuous integration
 
 <!--more-->
 
