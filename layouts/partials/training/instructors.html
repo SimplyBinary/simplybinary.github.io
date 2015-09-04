@@ -9,8 +9,7 @@
         <h3>{{ .Name }}</h3>
         <p>{{ index . "Short Description" | markdownify }}</p>
         {{ with .Expertise }}
-          Areas of Expertise:
-          {{ partial "inline-list.html" . }}
+          {{ partial "expertise-list.html" . }}
         {{ end }}
         <ul class="inline-list social-list">
           {{ with .Twitter }}
