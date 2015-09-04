@@ -19,7 +19,7 @@ slug: "git-for-teams"
 
 ## This isn't Your Average Git Seminar
 
-From the get-go you'll be working hands on with git. The material is presented with short videos that clearly explain topics using graphics and animations to help visualize complex or confusing concepts. You'll clone a repository with exercises and problems to solve. If you get stuck we'll be right there to help.
+From the get-go you'll be working hands on with git. The material is presented with short presentations that clearly explain topics using graphics and animations to help visualize complex or confusing concepts. You'll clone a repository with exercises and problems to solve. If you get stuck we'll be right there to help.
 
 It doesn't matter if you attend solo or with your entire team, you'll get just as much out of Git for Teams either way. Most of the concepts, patterns, and practices that we'll cover can be implemented one at a time by individuals, but they really shine when used together.
 
