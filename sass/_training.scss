@@ -57,8 +57,8 @@
     bottom: -1px;
     color: $white;
     left: 0;
-    padding-top: 200px;
     padding-bottom: 40px;
+    padding-top: 200px;
     position: absolute;
     right: 0;
     text-shadow: 0 0 3px rgba(0, 0, 0, .9);
@@ -120,4 +120,15 @@
   p {
     font-weight: 300;
   }
+
+  .inline-list > {
+    li:first-child {
+      margin-left: 0;
+    }
+  }
+
+  strong {
+    color: $cool-grey;
+  }
+
 }
