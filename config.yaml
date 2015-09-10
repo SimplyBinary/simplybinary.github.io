@@ -29,8 +29,12 @@ menu:
       Weight: 5
       Identifier: "team"
       URL: "#team"
-    - Name: "Blog"
+    - Name: "Classes"
       Weight: 6
+      Identifier: "classes"
+      URL: "/classes/git-for-teams/"
+    - Name: "Blog"
+      Weight: 7
       Identifier: "blog"
       URL: "http://blog.simplybinary.com"
   social:
