@@ -14,7 +14,13 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.5.2"
+    "foundation": "~5.5.2",
+    "jquery-validation": "^1.17.0",
+    "jquery.scrollTo": "jquery.scrollto#^2.1.2",
+    "jquery-scrollspy": "*",
+    "jquery.cookie": "jquery-cookie#^1.4.1",
+    "jquery-placeholder": "^2.3.1",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {}
 }
