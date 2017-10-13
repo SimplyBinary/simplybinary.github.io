@@ -1,6 +1,7 @@
 {
   "name": "simplybinary.github.io",
   "version": "0.0.0",
+  "private": true,
   "description": "## Development Dependencies",
   "main": " ",
   "dependencies": {
@@ -25,7 +26,7 @@
     "url": "https://github.com/SimplyBinary/simplybinary.github.io.git"
   },
   "author": "",
-  "license": "none",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/SimplyBinary/simplybinary.github.io/issues"
   },
