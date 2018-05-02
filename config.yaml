@@ -3,7 +3,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseURL: "http://simplybinary.github.io"
+baseURL: "https://www.simplybinary.com"
 title: "Simply Binary"
 canonifyURLs: true
 metaDataFormat: "yaml"
