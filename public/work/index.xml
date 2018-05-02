@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Simply Binary</title>
-    <link>http://simplybinary.github.io/work/</link>
+    <link>https://www.simplybinary.com/work/</link>
     <description>Recent content in Works on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 14 Jul 2015 11:18:36 -0400</lastBuildDate>
     
-	<atom:link href="http://simplybinary.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.simplybinary.com/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CaptureLife</title>
-      <link>http://simplybinary.github.io/work/capturelife/</link>
+      <link>https://www.simplybinary.com/work/capturelife/</link>
       <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/capturelife/</guid>
+      <guid>https://www.simplybinary.com/work/capturelife/</guid>
       <description>Re-imagining how you organize, collect, and browse all your photos in one place so you can easily capture, discover, and relive life. Currently responsible for operations and development from the desktop to the web in JavaScript, Go, Objective-C, and C#.</description>
     </item>
     
     <item>
       <title>Kona by Deltek</title>
-      <link>http://simplybinary.github.io/work/kona-by-deltek/</link>
+      <link>https://www.simplybinary.com/work/kona-by-deltek/</link>
       <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/kona-by-deltek/</guid>
+      <guid>https://www.simplybinary.com/work/kona-by-deltek/</guid>
       <description>Social collaboration for projects and teams. A virtual equivalent to an open office environment for any organization to connect, stay organized, and be productive. We were hired for our extensive knowledge of ruby and worked on the project from first commit to years after launching.</description>
     </item>
     
     <item>
       <title>Barbri | Law Preview</title>
-      <link>http://simplybinary.github.io/work/barbri-law-preview/</link>
+      <link>https://www.simplybinary.com/work/barbri-law-preview/</link>
       <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/work/barbri-law-preview/</guid>
+      <guid>https://www.simplybinary.com/work/barbri-law-preview/</guid>
       <description>Training for the nation&amp;rsquo;s top law students. Helping you to organize, prepare, and conquer law school and exams. Currently responsible for supporting both back-end and front-end development in PHP and Javascript.</description>
     </item>
     
