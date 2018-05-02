@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Simply Binary</title>
-    <link>http://simplybinary.github.io/classes/</link>
+    <link>https://www.simplybinary.com/classes/</link>
     <description>Recent content in Classes on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate>
     
-	<atom:link href="http://simplybinary.github.io/classes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.simplybinary.com/classes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git for Teams</title>
-      <link>http://simplybinary.github.io/classes/git-for-teams/</link>
+      <link>https://www.simplybinary.com/classes/git-for-teams/</link>
       <pubDate>Tue, 21 Jul 2015 19:10:58 -0400</pubDate>
       
-      <guid>http://simplybinary.github.io/classes/git-for-teams/</guid>
+      <guid>https://www.simplybinary.com/classes/git-for-teams/</guid>
       <description>&lt;h2 id=&#34;this-isn-t-your-average-git-seminar&#34;&gt;This isn&amp;rsquo;t Your Average Git Seminar&lt;/h2&gt;
 
 &lt;p&gt;From the get-go you&amp;rsquo;ll be working hands on with git. The material is presented with short presentations that clearly explain topics using graphics and animations to help visualize complex or confusing concepts. You&amp;rsquo;ll clone a repository with exercises and problems to solve. If you get stuck we&amp;rsquo;ll be right there to help.&lt;/p&gt;
