@@ -51,4 +51,4 @@ menu:
       Identifier: "rss"
       URL: "/"
 params:
-  BlogURL: "http://blog.simplybinary.com"
+  BlogURL: ""
