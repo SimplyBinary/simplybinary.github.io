@@ -33,10 +33,6 @@ menu:
       Weight: 6
       Identifier: "training"
       URL: "/classes/git-for-teams/"
-    - Name: "Blog"
-      Weight: 7
-      Identifier: "blog"
-      URL: "http://blog.simplybinary.com"
   social:
     - Name: "Facebook"
       Weight: 10
