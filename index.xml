@@ -1,90 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simply Binary</title>
     <link>https://www.simplybinary.com/</link>
     <description>Recent content on Simply Binary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.simplybinary.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 21 Jul 2015 19:10:58 -0400</lastBuildDate><atom:link href="https://www.simplybinary.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git for Teams</title>
       <link>https://www.simplybinary.com/classes/git-for-teams/</link>
       <pubDate>Tue, 21 Jul 2015 19:10:58 -0400</pubDate>
       
       <guid>https://www.simplybinary.com/classes/git-for-teams/</guid>
-      <description>&lt;h2 id=&#34;this-isn-t-your-average-git-seminar&#34;&gt;This isn&amp;rsquo;t Your Average Git Seminar&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;this-isnt-your-average-git-seminar&#34;&gt;This isn&amp;rsquo;t Your Average Git Seminar&lt;/h2&gt;
 &lt;p&gt;From the get-go you&amp;rsquo;ll be working hands on with git. The material is presented with short presentations that clearly explain topics using graphics and animations to help visualize complex or confusing concepts. You&amp;rsquo;ll clone a repository with exercises and problems to solve. If you get stuck we&amp;rsquo;ll be right there to help.&lt;/p&gt;
-
 &lt;p&gt;It doesn&amp;rsquo;t matter if you attend solo or with your entire team, you&amp;rsquo;ll get just as much out of Git for Teams either way. Most of the concepts, patterns, and practices that we&amp;rsquo;ll cover can be implemented one at a time by individuals, but they really shine when used together.&lt;/p&gt;
-
 &lt;h2 id=&#34;syllabus&#34;&gt;Syllabus&lt;/h2&gt;
-
 &lt;h3 id=&#34;individual-skills&#34;&gt;Individual Skills&lt;/h3&gt;
-
 &lt;h4 id=&#34;the-basics&#34;&gt;The Basics&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Good commit messages&lt;/li&gt;
 &lt;li&gt;Merging branches&lt;/li&gt;
 &lt;li&gt;Commit only some changes in a file&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4 id=&#34;the-three-trees&#34;&gt;The Three Trees&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Manipulating the three trees
-
 &lt;ul&gt;
 &lt;li&gt;Reset, revert, and checkout commits&lt;/li&gt;
 &lt;li&gt;Reset, revert, and checkout files&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&#34;rewrite-history&#34;&gt;Rewrite History&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Adding to the last commit&lt;/li&gt;
 &lt;li&gt;A beautiful git log
-
 &lt;ul&gt;
 &lt;li&gt;Reset to undo commits&lt;/li&gt;
 &lt;li&gt;Combining two or more commits into one&lt;/li&gt;
 &lt;li&gt;Editing commit messages&lt;/li&gt;
 &lt;li&gt;Reordering Commits&lt;/li&gt;
 &lt;li&gt;Skipping Commits&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;team-skills&#34;&gt;Team Skills&lt;/h3&gt;
-
 &lt;h4 id=&#34;branching-strategy&#34;&gt;Branching Strategy&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Always know your merge target&lt;/li&gt;
 &lt;li&gt;Multiple remotes/forking&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4 id=&#34;find-bad-commits&#34;&gt;Find Bad Commits&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Bisect &amp;amp; bisecting with tests&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4 id=&#34;working-as-a-team&#34;&gt;Working as a Team&lt;/h4&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Submitting pull requests&lt;/li&gt;
 &lt;li&gt;Submitting pull requests to a forked upstream repository&lt;/li&gt;
 &lt;li&gt;Accepting pull requests&lt;/li&gt;
 &lt;li&gt;Continuous integration&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
