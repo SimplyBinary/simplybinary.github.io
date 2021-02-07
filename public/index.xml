@@ -64,32 +64,5 @@
 &lt;/ul&gt;</description>
     </item>
     
-    <item>
-      <title>CaptureLife</title>
-      <link>https://www.simplybinary.com/work/capturelife/</link>
-      <pubDate>Tue, 14 Jul 2015 11:18:36 -0400</pubDate>
-      
-      <guid>https://www.simplybinary.com/work/capturelife/</guid>
-      <description>Re-imagining how you organize, collect, and browse all your photos in one place so you can easily capture, discover, and relive life. Currently responsible for operations and development from the desktop to the web in JavaScript, Go, Objective-C, and C#.</description>
-    </item>
-    
-    <item>
-      <title>Kona by Deltek</title>
-      <link>https://www.simplybinary.com/work/kona-by-deltek/</link>
-      <pubDate>Wed, 14 May 2014 11:21:41 -0400</pubDate>
-      
-      <guid>https://www.simplybinary.com/work/kona-by-deltek/</guid>
-      <description>Social collaboration for projects and teams. A virtual equivalent to an open office environment for any organization to connect, stay organized, and be productive. We were hired for our extensive knowledge of ruby and worked on the project from first commit to years after launching.</description>
-    </item>
-    
-    <item>
-      <title>Barbri | Law Preview</title>
-      <link>https://www.simplybinary.com/work/barbri-law-preview/</link>
-      <pubDate>Tue, 14 Jan 2014 11:22:52 -0400</pubDate>
-      
-      <guid>https://www.simplybinary.com/work/barbri-law-preview/</guid>
-      <description>Training for the nation&amp;rsquo;s top law students. Helping you to organize, prepare, and conquer law school and exams. Currently responsible for supporting both back-end and front-end development in PHP and Javascript.</description>
-    </item>
-    
   </channel>
 </rss>
