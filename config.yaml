@@ -29,10 +29,6 @@ menu:
       Weight: 5
       Identifier: "team"
       URL: "#team"
-    - Name: "Training"
-      Weight: 6
-      Identifier: "training"
-      URL: "/classes/git-for-teams/"
   social:
     - Name: "Facebook"
       Weight: 10
