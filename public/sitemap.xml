@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://www.simplybinary.com/classes/</loc>
     <lastmod>2015-07-21T19:10:58-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.simplybinary.com/classes/git-for-teams/</loc>
     <lastmod>2015-07-21T19:10:58-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://www.simplybinary.com/</loc>
     <lastmod>2015-07-21T19:10:58-04:00</lastmod>
-  </url><url>
-    <loc>https://www.simplybinary.com/categories/</loc>
-  </url><url>
-    <loc>https://www.simplybinary.com/tags/</loc>
   </url>
+  
+  <url>
+    <loc>https://www.simplybinary.com/categories/</loc>
+  </url>
+  
 </urlset>
